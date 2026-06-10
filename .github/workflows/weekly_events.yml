@@ -1,0 +1,56 @@
+name: 週次オスロイベントメール配信
+
+on:
+  # 毎週月曜日 朝7時（JST）= UTC 22時（日曜深夜）
+  schedule:
+    - cron: "0 22 * * 0"
+
+  # 手動実行ボタン（テスト用）
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no email sent)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+jobs:
+  send-weekly-events:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Python 3.11 セットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 依存ライブラリのインストール
+        run: pip install -r requirements.txt
+
+      - name: イベント収集 & メール送信
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENTS: ${{ secrets.RECIPIENTS }}
+          WEEKS_AHEAD: "3"
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: python -m src.main
+
+      - name: 結果をアーティファクトとして保存
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: event-report-${{ github.run_id }}
+          path: |
+            *.log
+          retention-days: 7
