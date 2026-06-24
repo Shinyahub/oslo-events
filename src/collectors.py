@@ -52,7 +52,7 @@ def fetch_ticketmaster_events(api_key: str, weeks_ahead: int = 3) -> list[dict]:
             "unit": "km",
             "startDateTime": start_str,
             "endDateTime": end_str,
-            "size": 50,
+            "size": 200,
             "sort": "date,asc",
             "locale": "*",
         }
