@@ -42,7 +42,7 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           RECIPIENTS: ${{ secrets.RECIPIENTS }}
-          WEEKS_AHEAD: "3"
+          WEEKS_AHEAD: "4"
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
         run: python -m src.main
 
