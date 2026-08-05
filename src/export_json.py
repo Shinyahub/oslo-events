@@ -16,6 +16,7 @@ EXCLUDED_KEYWORDS = [
     "comedy", "stand-up", "standup", "talk show", "talkshow",
     "komedi", "kongehuset", "slottet", "royal palace",
     "humorfest", "humor fest",
+    "apent slott", "åpent slott", "slottsplassen",
 ]
 
 
@@ -30,13 +31,12 @@ def generate_description(client: anthropic.Anthropic, title: str, category: str,
     try:
         msg = client.messages.create(
             model="claude-haiku-4-5-20251001",
-            max_tokens=200,
+            max_tokens=80,
             messages=[{
                 "role": "user",
                 "content": (
-                    f"以下のイベントについて、日本語で50〜100文字程度の説明を書いてください。"
-                    f"どんなイベントか、どんな人におすすめかを含めてください。"
-                    f"説明文のみ返してください。余計な前置きは不要です。\n"
+                    f"以下のイベントについて、日本語で40文字以内の一言説明を書いてください。"
+                    f"説明文のみ返してください。\n"
                     f"イベント名: {title}\nカテゴリ: {category}\n都市: {city}"
                 )
             }]
