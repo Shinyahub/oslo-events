@@ -61,6 +61,7 @@
   .filter-btn:hover { background: #30363d; }
   .filter-btn.active-time { background: #1a4a1a; border-color: #2ea043; color: #3fb950; }
   .filter-btn.active-city { background: #0066cc; border-color: #0066cc; }
+  .filter-btn.active-genre { background: #4a1a4a; border-color: #8957e5; color: #d2a8ff; }
   .week-section {
     max-width: 800px;
     margin: 24px auto;
@@ -146,6 +147,11 @@
   <button class="filter-btn" id="btn-city-oslo" onclick="filterCity('oslo', this)">🏙 Oslo</button>
   <button class="filter-btn" id="btn-city-got" onclick="filterCity('goteborg', this)">🇸🇪 Göteborg</button>
   <button class="filter-btn" id="btn-city-krs" onclick="filterCity('kristiansand', this)">🌊 Kristiansand</button>
+  <div class="filter-divider"></div>
+  <span class="filter-label">ジャンル：</span>
+  <button class="filter-btn active-genre" id="btn-genre-all" onclick="filterGenre('all', this)">すべて</button>
+  <button class="filter-btn" id="btn-genre-music" onclick="filterGenre('music', this)">🎵 音楽系</button>
+  <button class="filter-btn" id="btn-genre-other" onclick="filterGenre('other', this)">🎪 音楽系以外</button>
 </div>
 
 <div id="events-container">
@@ -161,6 +167,24 @@
 let allEvents = [];
 let currentTime = 'all';
 let currentCity = 'all';
+let currentGenre = 'all';
+
+const MUSIC_KEYWORDS = ['music','concert','konsert','festival','blues','jazz','rock','pop','klassisk','opera','band','live','dj','musikk','sang','choir','kor','symphony','philharmonic','filharmoni'];
+
+function isMusic(ev) {
+  const text = ((ev.title||'') + ' ' + (ev.category||'')).toLowerCase();
+  return MUSIC_KEYWORDS.some(kw => text.includes(kw));
+}
+
+function filterGenre(genre, btn) {
+  currentGenre = genre;
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    if (['btn-genre-all','btn-genre-music','btn-genre-other'].includes(b.id))
+      b.classList.remove('active-genre');
+  });
+  btn.classList.add('active-genre');
+  applyFilters();
+}
 
 // 今週末の土日を計算
 function getThisWeekend() {
@@ -241,6 +265,13 @@ function applyFilters() {
     filtered = filtered.filter(ev =>
       (ev.city || '').toLowerCase().includes(currentCity)
     );
+  }
+
+  // ジャンルフィルター
+  if (currentGenre === 'music') {
+    filtered = filtered.filter(ev => isMusic(ev));
+  } else if (currentGenre === 'other') {
+    filtered = filtered.filter(ev => !isMusic(ev));
   }
 
   renderEvents(filtered);
