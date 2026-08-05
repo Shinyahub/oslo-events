@@ -19,7 +19,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def main() -> None:
+def main() -> None:a
     ticketmaster_key = os.environ.get("TICKETMASTER_API_KEY")
     anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "")
     gmail_user = os.environ.get("GMAIL_USER", "")
@@ -49,9 +49,13 @@ def main() -> None:
         weeks_ahead=weeks_ahead,
     )
 
-    # Step 2: Web用JSONに書き出し（GitHub Pagesで表示）
-    logger.info("=== Step 2: Exporting events.json for GitHub Pages ===")
-    export_events_to_json(events, output_path="docs/events.json")
+    # Step 2: Web用JSONに書き出し（日本語説明付き）
+    logger.info("=== Step 2: Exporting events.json with descriptions ===")
+    export_events_to_json(
+        events,
+        output_path="docs/events.json",
+        anthropic_api_key=anthropic_key,
+    )
 
     # Step 3: Claude APIでメール用サマリー生成
     logger.info(f"=== Step 3: Summarizing {len(events)} events with Claude ===")
@@ -72,7 +76,7 @@ def main() -> None:
         event_count=len(events),
     )
 
-    logger.info("✅ Done!")
+    logger.info("Done!")
 
 
 if __name__ == "__main__":
