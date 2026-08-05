@@ -34,8 +34,9 @@ def generate_description(client: anthropic.Anthropic, title: str, category: str,
             messages=[{
                 "role": "user",
                 "content": (
-                    f"以下のイベントについて、日本語で40文字以内の一言説明を書いてください。"
-                    f"説明文のみ返してください。\n"
+                    f"以下のイベントについて、日本語で50〜100文字程度の説明を書いてください。"
+                    f"どんなイベントか、どんな人におすすめかを含めてください。"
+                    f"説明文のみ返してください。余計な前置きは不要です。\n"
                     f"イベント名: {title}\nカテゴリ: {category}\n都市: {city}"
                 )
             }]
