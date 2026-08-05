@@ -1,11 +1,9 @@
 name: 週次オスロイベントメール配信
 
 on:
-  # 毎週月曜日 朝7時（JST）= UTC 22時（日曜深夜）
   schedule:
+    # 毎週金曜15時UTC = オスロ夏時間17時
     - cron: "0 15 * * 5"
-
-  # 手動実行ボタン（テスト用）
   workflow_dispatch:
     inputs:
       dry_run:
@@ -21,6 +19,8 @@ jobs:
   send-weekly-events:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write  # docs/events.json をpushするために必要
 
     steps:
       - name: リポジトリをチェックアウト
@@ -35,7 +35,7 @@ jobs:
       - name: 依存ライブラリのインストール
         run: pip install -r requirements.txt
 
-      - name: イベント収集 & メール送信
+      - name: イベント収集・JSON書き出し・メール送信
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -46,11 +46,10 @@ jobs:
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
         run: python -m src.main
 
-      - name: 結果をアーティファクトとして保存
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: event-report-${{ github.run_id }}
-          path: |
-            *.log
-          retention-days: 7
+      - name: events.jsonをGitHubにpush（GitHub Pages更新）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/events.json
+          git diff --staged --quiet || git commit -m "chore: update events.json [skip ci]"
+          git push
