@@ -19,7 +19,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def main() -> None:a
+def main() -> None:
     ticketmaster_key = os.environ.get("TICKETMASTER_API_KEY")
     anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "")
     gmail_user = os.environ.get("GMAIL_USER", "")
