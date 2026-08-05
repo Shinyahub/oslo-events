@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🇳🇴 オスロ周辺イベント情報</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Hiragino Sans', 'Meiryo', sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    min-height: 100vh;
+  }
+  header {
+    background: linear-gradient(135deg, #003087 0%, #0066cc 100%);
+    padding: 32px 24px;
+    text-align: center;
+  }
+  header h1 { font-size: 24px; font-weight: bold; margin-bottom: 8px; }
+  header p { font-size: 13px; opacity: 0.85; }
+  .updated {
+    text-align: center;
+    font-size: 12px;
+    color: #8b949e;
+    padding: 12px;
+    background: #161b22;
+    border-bottom: 1px solid #30363d;
+  }
+  .filter-bar {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 16px 24px;
+    background: #161b22;
+    border-bottom: 1px solid #30363d;
+    justify-content: center;
+  }
+  .filter-btn {
+    background: #21262d;
+    border: 1px solid #30363d;
+    color: #e6edf3;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s;
+  }
+  .filter-btn:hover, .filter-btn.active {
+    background: #0066cc;
+    border-color: #0066cc;
+  }
+  .week-section {
+    max-width: 800px;
+    margin: 24px auto;
+    padding: 0 16px;
+  }
+  .week-label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #8b949e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #21262d;
+  }
+  .event-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+  }
+  .event-card:hover { border-color: #0066cc; }
+  .event-card.highlight { border-left: 3px solid #f0b429; }
+  .event-meta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .event-date {
+    font-size: 12px;
+    color: #58a6ff;
+    font-weight: bold;
+  }
+  .event-city {
+    font-size: 11px;
+    background: #21262d;
+    padding: 2px 8px;
+    border-radius: 10px;
+    color: #8b949e;
+  }
+  .event-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  .event-desc {
+    font-size: 13px;
+    color: #8b949e;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  .event-link {
+    font-size: 12px;
+    color: #58a6ff;
+    text-decoration: none;
+  }
+  .event-link:hover { text-decoration: underline; }
+  .star { color: #f0b429; margin-right: 4px; }
+  .loading {
+    text-align: center;
+    padding: 60px;
+    color: #8b949e;
+    font-size: 16px;
+  }
+  .no-events {
+    text-align: center;
+    padding: 40px;
+    color: #8b949e;
+  }
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 11px;
+    color: #484f58;
+    border-top: 1px solid #21262d;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🇳🇴 オスロ周辺 イベント情報</h1>
+  <p>Oslo・Gothenburg・Kristiansand エリア ／ 今後1ヶ月</p>
+</header>
+
+<div class="updated" id="updated-at">データ読み込み中...</div>
+
+<div class="filter-bar">
+  <button class="filter-btn active" onclick="filterCity('all')">すべて</button>
+  <button class="filter-btn" onclick="filterCity('Oslo')">🏙 Oslo</button>
+  <button class="filter-btn" onclick="filterCity('Gothenburg')">🇸🇪 Göteborg</button>
+  <button class="filter-btn" onclick="filterCity('Kristiansand')">🌊 Kristiansand</button>
+</div>
+
+<div id="events-container">
+  <div class="loading">⏳ イベント情報を読み込み中...</div>
+</div>
+
+<footer>
+  情報ソース: Ticketmaster / VisitOslo / VisitNorway<br>
+  毎週金曜17時（オスロ時間）更新 ／ イベント情報は変更になる場合があります
+</footer>
+
+<script>
+let allEvents = [];
+let currentCity = 'all';
+
+async function loadEvents() {
+  try {
+    const res = await fetch('events.json?t=' + Date.now());
+    const data = await res.json();
+    allEvents = data.events || [];
+
+    const updated = data.updated_at
+      ? new Date(data.updated_at).toLocaleString('ja-JP')
+      : '不明';
+    document.getElementById('updated-at').textContent =
+      `最終更新: ${updated} ／ ${allEvents.length}件のイベント`;
+
+    renderEvents(allEvents);
+  } catch (e) {
+    document.getElementById('events-container').innerHTML =
+      '<div class="no-events">⚠️ データの読み込みに失敗しました。<br>しばらく経ってから再度アクセスしてください。</div>';
+    document.getElementById('updated-at').textContent = 'データ未取得';
+  }
+}
+
+function filterCity(city) {
+  currentCity = city;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+
+  const filtered = city === 'all'
+    ? allEvents
+    : allEvents.filter(e => (e.city || '').toLowerCase().includes(city.toLowerCase()));
+  renderEvents(filtered);
+}
+
+function groupByWeek(events) {
+  const weeks = {};
+  events.forEach(ev => {
+    const date = ev.date ? new Date(ev.date) : null;
+    if (!date || isNaN(date)) {
+      const key = '日付未定';
+      if (!weeks[key]) weeks[key] = [];
+      weeks[key].push(ev);
+      return;
+    }
+    // 週の月曜日を計算
+    const monday = new Date(date);
+    monday.setDate(date.getDate() - ((date.getDay() + 6) % 7));
+    const key = monday.toISOString().slice(0, 10);
+    if (!weeks[key]) weeks[key] = [];
+    weeks[key].push(ev);
+  });
+  return weeks;
+}
+
+function formatDateRange(dateStr) {
+  if (!dateStr) return '日付未定';
+  const d = new Date(dateStr);
+  if (isNaN(d)) return dateStr;
+  return `${d.getMonth() + 1}/${d.getDate()}`;
+}
+
+function weekLabel(mondayStr) {
+  if (mondayStr === '日付未定') return '日付未定';
+  const d = new Date(mondayStr);
+  const sunday = new Date(d);
+  sunday.setDate(d.getDate() + 6);
+  return `${d.getMonth()+1}/${d.getDate()} 〜 ${sunday.getMonth()+1}/${sunday.getDate()} の週`;
+}
+
+function renderEvents(events) {
+  const container = document.getElementById('events-container');
+  if (events.length === 0) {
+    container.innerHTML = '<div class="no-events">該当するイベントが見つかりませんでした。</div>';
+    return;
+  }
+
+  const weeks = groupByWeek(events);
+  const sortedWeeks = Object.keys(weeks).sort();
+  let html = '';
+
+  sortedWeeks.forEach(weekKey => {
+    const weekEvents = weeks[weekKey];
+    html += `<div class="week-section">`;
+    html += `<div class="week-label">📅 ${weekLabel(weekKey)}</div>`;
+
+    weekEvents.forEach(ev => {
+      const isHighlight = ev.title && ev.title.match(/★|⭐/);
+      const cardClass = isHighlight ? 'event-card highlight' : 'event-card';
+      const cityLabel = ev.city || ev.venue || '';
+      const desc = ev.description || '';
+      const url = ev.url || '';
+
+      html += `<div class="${cardClass}">
+        <div class="event-meta">
+          <span class="event-date">${formatDateRange(ev.date)}</span>
+          ${cityLabel ? `<span class="event-city">📍 ${cityLabel}</span>` : ''}
+        </div>
+        <div class="event-title">${ev.title || ''}</div>
+        ${desc ? `<div class="event-desc">→ ${desc}</div>` : ''}
+        ${url ? `<a class="event-link" href="${url}" target="_blank" rel="noopener">🎟 チケット・詳細</a>` : ''}
+      </div>`;
+    });
+
+    html += `</div>`;
+  });
+
+  container.innerHTML = html;
+}
+
+loadEvents();
+</script>
+</body>
+</html>
