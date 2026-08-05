@@ -3,7 +3,7 @@ name: 週次オスロイベントメール配信
 on:
   # 毎週月曜日 朝7時（JST）= UTC 22時（日曜深夜）
   schedule:
-    - cron: "0 22 * * 0"
+    - cron: "0 15 * * 5"
 
   # 手動実行ボタン（テスト用）
   workflow_dispatch:
