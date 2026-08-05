@@ -30,7 +30,7 @@ def generate_description(client: anthropic.Anthropic, title: str, category: str,
     try:
         msg = client.messages.create(
             model="claude-haiku-4-5-20251001",
-            max_tokens=80,
+            max_tokens=200,
             messages=[{
                 "role": "user",
                 "content": (
