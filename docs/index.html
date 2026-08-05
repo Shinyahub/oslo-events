@@ -31,10 +31,22 @@
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
-    padding: 16px 24px;
+    padding: 12px 24px;
     background: #161b22;
     border-bottom: 1px solid #30363d;
     justify-content: center;
+  }
+  .filter-label {
+    font-size: 11px;
+    color: #8b949e;
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+  }
+  .filter-divider {
+    width: 1px;
+    background: #30363d;
+    margin: 0 8px;
   }
   .filter-btn {
     background: #21262d;
@@ -46,10 +58,9 @@
     font-size: 13px;
     transition: all 0.2s;
   }
-  .filter-btn:hover, .filter-btn.active {
-    background: #0066cc;
-    border-color: #0066cc;
-  }
+  .filter-btn:hover { background: #30363d; }
+  .filter-btn.active-time { background: #1a4a1a; border-color: #2ea043; color: #3fb950; }
+  .filter-btn.active-city { background: #0066cc; border-color: #0066cc; }
   .week-section {
     max-width: 800px;
     margin: 24px auto;
@@ -59,12 +70,11 @@
     font-size: 13px;
     font-weight: bold;
     color: #8b949e;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     margin-bottom: 12px;
     padding-bottom: 8px;
     border-bottom: 1px solid #21262d;
   }
+  .week-label.this-weekend { color: #3fb950; border-color: #2ea043; }
   .event-card {
     background: #161b22;
     border: 1px solid #30363d;
@@ -82,11 +92,7 @@
     flex-wrap: wrap;
     margin-bottom: 6px;
   }
-  .event-date {
-    font-size: 12px;
-    color: #58a6ff;
-    font-weight: bold;
-  }
+  .event-date { font-size: 12px; color: #58a6ff; font-weight: bold; }
   .event-city {
     font-size: 11px;
     background: #21262d;
@@ -94,35 +100,22 @@
     border-radius: 10px;
     color: #8b949e;
   }
-  .event-title {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 4px;
-  }
+  .event-title { font-size: 16px; font-weight: bold; margin-bottom: 6px; }
   .event-desc {
     font-size: 13px;
     color: #8b949e;
     margin-bottom: 8px;
-    line-height: 1.5;
+    line-height: 1.6;
+    padding: 6px 10px;
+    background: #0d1117;
+    border-radius: 6px;
+    border-left: 2px solid #30363d;
   }
-  .event-link {
-    font-size: 12px;
-    color: #58a6ff;
-    text-decoration: none;
-  }
+  .event-desc.loading-desc { color: #484f58; font-style: italic; }
+  .event-link { font-size: 12px; color: #58a6ff; text-decoration: none; }
   .event-link:hover { text-decoration: underline; }
-  .star { color: #f0b429; margin-right: 4px; }
-  .loading {
-    text-align: center;
-    padding: 60px;
-    color: #8b949e;
-    font-size: 16px;
-  }
-  .no-events {
-    text-align: center;
-    padding: 40px;
-    color: #8b949e;
-  }
+  .loading { text-align: center; padding: 60px; color: #8b949e; font-size: 16px; }
+  .no-events { text-align: center; padding: 40px; color: #8b949e; }
   footer {
     text-align: center;
     padding: 24px;
@@ -143,10 +136,16 @@
 <div class="updated" id="updated-at">データ読み込み中...</div>
 
 <div class="filter-bar">
-  <button class="filter-btn active" onclick="filterCity('all')">すべて</button>
-  <button class="filter-btn" onclick="filterCity('Oslo')">🏙 Oslo</button>
-  <button class="filter-btn" onclick="filterCity('Gothenburg')">🇸🇪 Göteborg</button>
-  <button class="filter-btn" onclick="filterCity('Kristiansand')">🌊 Kristiansand</button>
+  <span class="filter-label">期間：</span>
+  <button class="filter-btn active-time" id="btn-time-all" onclick="filterTime('all', this)">すべて</button>
+  <button class="filter-btn" id="btn-time-weekend" onclick="filterTime('weekend', this)">🗓 今週末</button>
+  <button class="filter-btn" id="btn-time-future" onclick="filterTime('future', this)">📆 来週以降</button>
+  <div class="filter-divider"></div>
+  <span class="filter-label">エリア：</span>
+  <button class="filter-btn active-city" id="btn-city-all" onclick="filterCity('all', this)">すべて</button>
+  <button class="filter-btn" id="btn-city-oslo" onclick="filterCity('oslo', this)">🏙 Oslo</button>
+  <button class="filter-btn" id="btn-city-got" onclick="filterCity('goteborg', this)">🇸🇪 Göteborg</button>
+  <button class="filter-btn" id="btn-city-krs" onclick="filterCity('kristiansand', this)">🌊 Kristiansand</button>
 </div>
 
 <div id="events-container">
@@ -160,21 +159,33 @@
 
 <script>
 let allEvents = [];
+let currentTime = 'all';
 let currentCity = 'all';
+
+// 今週末の土日を計算
+function getThisWeekend() {
+  const now = new Date();
+  const day = now.getDay(); // 0=日, 6=土
+  const saturday = new Date(now);
+  saturday.setDate(now.getDate() + ((6 - day + 7) % 7 || 7));
+  saturday.setHours(0,0,0,0);
+  const sunday = new Date(saturday);
+  sunday.setDate(saturday.getDate() + 1);
+  sunday.setHours(23,59,59,999);
+  return { saturday, sunday };
+}
 
 async function loadEvents() {
   try {
     const res = await fetch('events.json?t=' + Date.now());
     const data = await res.json();
     allEvents = data.events || [];
-
     const updated = data.updated_at
       ? new Date(data.updated_at).toLocaleString('ja-JP')
       : '不明';
     document.getElementById('updated-at').textContent =
       `最終更新: ${updated} ／ ${allEvents.length}件のイベント`;
-
-    renderEvents(allEvents);
+    applyFilters();
   } catch (e) {
     document.getElementById('events-container').innerHTML =
       '<div class="no-events">⚠️ データの読み込みに失敗しました。<br>しばらく経ってから再度アクセスしてください。</div>';
@@ -182,50 +193,116 @@ async function loadEvents() {
   }
 }
 
-function filterCity(city) {
-  currentCity = city;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
+function filterTime(mode, btn) {
+  currentTime = mode;
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    if (['btn-time-all','btn-time-weekend','btn-time-future'].includes(b.id))
+      b.classList.remove('active-time');
+  });
+  btn.classList.add('active-time');
+  applyFilters();
+}
 
-  const filtered = city === 'all'
-    ? allEvents
-    : allEvents.filter(e => (e.city || '').toLowerCase().includes(city.toLowerCase()));
+function filterCity(city, btn) {
+  currentCity = city;
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    if (['btn-city-all','btn-city-oslo','btn-city-got','btn-city-krs'].includes(b.id))
+      b.classList.remove('active-city');
+  });
+  btn.classList.add('active-city');
+  applyFilters();
+}
+
+function applyFilters() {
+  let filtered = [...allEvents];
+  const { saturday, sunday } = getThisWeekend();
+  const now = new Date();
+  now.setHours(0,0,0,0);
+
+  // 期間フィルター
+  if (currentTime === 'weekend') {
+    filtered = filtered.filter(ev => {
+      if (!ev.date) return false;
+      const d = new Date(ev.date);
+      return d >= saturday && d <= sunday;
+    });
+  } else if (currentTime === 'future') {
+    filtered = filtered.filter(ev => {
+      if (!ev.date) return false;
+      const d = new Date(ev.date);
+      const nextMonday = new Date(saturday);
+      nextMonday.setDate(saturday.getDate() + 2);
+      return d >= nextMonday;
+    });
+  }
+
+  // エリアフィルター
+  if (currentCity !== 'all') {
+    filtered = filtered.filter(ev =>
+      (ev.city || '').toLowerCase().includes(currentCity)
+    );
+  }
+
   renderEvents(filtered);
 }
 
 function groupByWeek(events) {
   const weeks = {};
+  const { saturday } = getThisWeekend();
+
   events.forEach(ev => {
     const date = ev.date ? new Date(ev.date) : null;
     if (!date || isNaN(date)) {
-      const key = '日付未定';
-      if (!weeks[key]) weeks[key] = [];
-      weeks[key].push(ev);
+      if (!weeks['9999']) weeks['9999'] = { label: '日付未定', isWeekend: false, events: [] };
+      weeks['9999'].events.push(ev);
       return;
     }
-    // 週の月曜日を計算
     const monday = new Date(date);
     monday.setDate(date.getDate() - ((date.getDay() + 6) % 7));
     const key = monday.toISOString().slice(0, 10);
-    if (!weeks[key]) weeks[key] = [];
-    weeks[key].push(ev);
+    if (!weeks[key]) {
+      const sunday = new Date(monday);
+      sunday.setDate(monday.getDate() + 6);
+      const isWeekend = date >= saturday && date <= new Date(saturday.getTime() + 86400000);
+      weeks[key] = {
+        label: `${monday.getMonth()+1}/${monday.getDate()} 〜 ${sunday.getMonth()+1}/${sunday.getDate()} の週`,
+        isWeekend,
+        events: []
+      };
+    }
+    weeks[key].events.push(ev);
   });
   return weeks;
 }
 
-function formatDateRange(dateStr) {
+function formatDate(dateStr) {
   if (!dateStr) return '日付未定';
   const d = new Date(dateStr);
   if (isNaN(d)) return dateStr;
-  return `${d.getMonth() + 1}/${d.getDate()}`;
+  const days = ['日','月','火','水','木','金','土'];
+  return `${d.getMonth()+1}/${d.getDate()}(${days[d.getDay()]})`;
 }
 
-function weekLabel(mondayStr) {
-  if (mondayStr === '日付未定') return '日付未定';
-  const d = new Date(mondayStr);
-  const sunday = new Date(d);
-  sunday.setDate(d.getDate() + 6);
-  return `${d.getMonth()+1}/${d.getDate()} 〜 ${sunday.getMonth()+1}/${sunday.getDate()} の週`;
+// Claude APIで日本語説明を生成
+async function generateDescription(title, category, city) {
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 100,
+        messages: [{
+          role: 'user',
+          content: `以下のイベントについて、日本語で30文字以内の一言説明を書いてください。説明文のみ返してください。\nイベント名: ${title}\nカテゴリ: ${category}\n都市: ${city}`
+        }]
+      })
+    });
+    const data = await res.json();
+    return data.content?.[0]?.text || '';
+  } catch {
+    return '';
+  }
 }
 
 function renderEvents(events) {
@@ -236,28 +313,31 @@ function renderEvents(events) {
   }
 
   const weeks = groupByWeek(events);
-  const sortedWeeks = Object.keys(weeks).sort();
+  const sortedKeys = Object.keys(weeks).sort();
   let html = '';
 
-  sortedWeeks.forEach(weekKey => {
-    const weekEvents = weeks[weekKey];
+  sortedKeys.forEach(key => {
+    const { label, isWeekend, events: wevents } = weeks[key];
+    const labelClass = isWeekend && currentTime !== 'future' ? 'week-label this-weekend' : 'week-label';
+    const weekendBadge = isWeekend && currentTime !== 'future' ? ' 🟢 今週末' : '';
     html += `<div class="week-section">`;
-    html += `<div class="week-label">📅 ${weekLabel(weekKey)}</div>`;
+    html += `<div class="${labelClass}">📅 ${label}${weekendBadge}</div>`;
 
-    weekEvents.forEach(ev => {
-      const isHighlight = ev.title && ev.title.match(/★|⭐/);
+    wevents.forEach((ev, i) => {
+      const isHighlight = ev.category && /music|concert|festival/i.test(ev.category);
       const cardClass = isHighlight ? 'event-card highlight' : 'event-card';
       const cityLabel = ev.city || ev.venue || '';
-      const desc = ev.description || '';
       const url = ev.url || '';
+      const descId = `desc-${key}-${i}`;
 
       html += `<div class="${cardClass}">
         <div class="event-meta">
-          <span class="event-date">${formatDateRange(ev.date)}</span>
+          <span class="event-date">${formatDate(ev.date)}</span>
           ${cityLabel ? `<span class="event-city">📍 ${cityLabel}</span>` : ''}
+          ${ev.category ? `<span class="event-city">${ev.category}</span>` : ''}
         </div>
         <div class="event-title">${ev.title || ''}</div>
-        ${desc ? `<div class="event-desc">→ ${desc}</div>` : ''}
+        <div class="event-desc loading-desc" id="${descId}">説明を生成中...</div>
         ${url ? `<a class="event-link" href="${url}" target="_blank" rel="noopener">🎟 チケット・詳細</a>` : ''}
       </div>`;
     });
@@ -266,6 +346,31 @@ function renderEvents(events) {
   });
 
   container.innerHTML = html;
+
+  // 説明文を非同期で生成（表示後に順次埋める）
+  let descIndex = 0;
+  sortedKeys.forEach(key => {
+    const { events: wevents } = weeks[key];
+    wevents.forEach((ev, i) => {
+      const descId = `desc-${key}-${i}`;
+      const delay = descIndex * 300; // API負荷を分散
+      descIndex++;
+      setTimeout(async () => {
+        const el = document.getElementById(descId);
+        if (!el) return;
+        if (ev.description) {
+          el.textContent = ev.description;
+          el.classList.remove('loading-desc');
+        } else {
+          const desc = await generateDescription(ev.title, ev.category, ev.city);
+          if (el) {
+            el.textContent = desc || ev.title;
+            el.classList.remove('loading-desc');
+          }
+        }
+      }, delay);
+    });
+  });
 }
 
 loadEvents();
