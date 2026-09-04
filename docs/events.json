@@ -1,898 +1,7 @@
 {
-  "updated_at": "2026-08-29T00:01:48.498763Z",
-  "count": 170,
+  "updated_at": "2026-09-04T18:16:29.150978Z",
+  "count": 181,
   "events": [
-    {
-      "title": "Organ recital with Marcus André Berg",
-      "date": "2026-08-29",
-      "time": "12:00:00",
-      "venue": "Oslo domkirke",
-      "city": "Oslo",
-      "category": "Music / Classical",
-      "url": "https://www.ticketmaster.no/event/orgelkonsert-med-marcus-andre-berg-billetter/459969732",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるマルクス・アンドレ・ベルグによるオルガンコンサート。"
-    },
-    {
-      "title": "Ole Brumm på eventyr",
-      "date": "2026-08-29",
-      "time": "13:00:00",
-      "venue": "Trikkestallen",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Children's Theatre",
-      "url": "https://www.ticketmaster.no/event/ole-brumm-pa-eventyr-billetter/358789218",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの人気児童文学キャラクターが主役の子ども向け舞台作品。"
-    },
-    {
-      "title": "Knerten og Lillebror",
-      "date": "2026-08-29",
-      "time": "15:00:00",
-      "venue": "Skillebekk Scene",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/knerten-og-lillebror-billetter/1803260831",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの児童文学作品を舞台化した家族向け演劇作品。"
-    },
-    {
-      "title": "No. 4 - Fri alder",
-      "date": "2026-08-29",
-      "time": "17:00:00",
-      "venue": "Rockefeller",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/no-4-fri-alder-billetter/427684044",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるロックミュージックイベント。Fri alderという名称のコンサート。"
-    },
-    {
-      "title": "Intimkonsert med Helene Bøksle - AVLYST",
-      "date": "2026-08-29",
-      "time": "17:30:00",
-      "venue": "Hadeland Glassverk (Glasshytta)",
-      "city": "Jevnaker",
-      "category": "Music / Other",
-      "url": "https://www.ticketmaster.no/event/intimkonsert-med-helene-boksle-avlyst-billetter/1518298565",
-      "source": "Ticketmaster",
-      "description": "ヘレーネ・ボクスレのインティマートコンサートがイェヴナケルで開催予定でしたが、中止になりました。"
-    },
-    {
-      "title": "Yagori - Gypsy Music Festival (Saturday)",
-      "date": "2026-08-29",
-      "time": "19:00:00",
-      "venue": "Kulturkirken Jakob",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Dance",
-      "url": "https://www.ticketmaster.no/event/yagori-gypsy-music-festival-saturday--billetter/1408320428",
-      "source": "Ticketmaster",
-      "description": "ジプシー音楽とダンスの祭典。オスロで開催される土曜日のイベント。"
-    },
-    {
-      "title": "Døden 505 + Split Bite + Drop Knee",
-      "date": "2026-08-29",
-      "time": "19:00:00",
-      "venue": "Sub Scene",
-      "city": "Oslo",
-      "category": "Music / Other",
-      "url": "https://www.ticketmaster.no/event/doden-505--split-bite--drop-knee-billetter/128870796",
-      "source": "Ticketmaster",
-      "description": "オスロで開催される、Døden 505、Split Bite、Drop Kneeによるライブミュージックイベント。"
-    },
-    {
-      "title": "Blues Cruise - Geir Bertheussen",
-      "date": "2026-08-29",
-      "time": "19:00:00",
-      "venue": "S/S Helena",
-      "city": "Oslo",
-      "category": "Music / Blues",
-      "url": "https://www.ticketmaster.no/event/blues-cruise-geir-bertheussen-billetter/268860932",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるGeir Berthuessenによるブルースクルーズ。ライブミュージックを楽しむイベント。"
-    },
-    {
-      "title": "Pia Maria Roll \"Male Fantasies\"",
-      "date": "2026-08-29",
-      "time": "19:00:00",
-      "venue": "Black Box Teater, Lille Scene",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Miscellaneous Theatre",
-      "url": "https://www.ticketmaster.no/event/pia-maria-roll-male-fantasies-billetter/1033708842",
-      "source": "Ticketmaster",
-      "description": "オスロで開催される、ピア・マリア・ロールによるパフォーマンス作品。男性的幻想をテーマにした舞台作品。"
-    },
-    {
-      "title": "Bongo's Bingo",
-      "date": "2026-08-29",
-      "time": "19:00:00",
-      "venue": "Carls - Arena",
-      "city": "Oslo",
-      "category": "Miscellaneous / Casino/Gaming",
-      "url": "https://www.ticketmaster.no/event/bongos-bingo-billetter/1332269249",
-      "source": "Ticketmaster",
-      "description": "ボンゴのリズムとビンゴゲームを組み合わせた、ノルウェーの音楽イベント。"
-    },
-    {
-      "title": "Konsert Synnøve Aanensen m/band",
-      "date": "2026-08-29",
-      "time": "19:00:00",
-      "venue": "Myhra Gård",
-      "city": "Tomter",
-      "category": "Music / Folk",
-      "url": "https://www.ticketmaster.no/event/konsert-synnove-aanensen-m-band-billetter/1101368612",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの民俗音楽シンガー、シンネーヴェ・オーネセンとバンドのコンサート。"
-    },
-    {
-      "title": "Konsert med Fogtops",
-      "date": "2026-08-29",
-      "time": "19:00:00",
-      "venue": "San Marino Restaurant",
-      "city": "Røyken",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/konsert-med-fogtops-billetter/555228206",
-      "source": "Ticketmaster",
-      "description": "ノルウェーのロイケン地区で開催される劇場公演。Fogtopsによる音楽とパフォーマンスの舞台作品。"
-    },
-    {
-      "title": "Creedence StoryNight",
-      "date": "2026-08-29",
-      "time": "19:00:00",
-      "venue": "Ullensaker Kulturhus",
-      "city": "Jessheim",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/creedence-storynight-billetter/746557904",
-      "source": "Ticketmaster",
-      "description": "ロックバンドCreedenceの歴史と魅力を紐解く音楽イベント。"
-    },
-    {
-      "title": "Martha Leivestad - «Faen då, Martha!»",
-      "date": "2026-08-29",
-      "time": "20:00:00",
-      "venue": "Sentrum Scene",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/martha-leivestad-faen-da-martha-billetter/118269351",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの歌手マーサ・レイベスタッドによるロックコンサート。オスロでの公演。"
-    },
-    {
-      "title": "Haunted By Silhouettes + Diavola + Altes",
-      "date": "2026-08-29",
-      "time": "20:00:00",
-      "venue": "Vaterland Bar & Scene",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/haunted-by-silhouettes--diavola--altes-billetter/1549283176",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるロック音楽イベント。Haunted By Silhouettes、Diavola、Altesが出演。"
-    },
-    {
-      "title": "No. 4",
-      "date": "2026-08-29",
-      "time": "20:00:00",
-      "venue": "Rockefeller",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/no-4-billetter/231744215",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの首都オスロで開催されるロックミュージックイベント。"
-    },
-    {
-      "title": "Typen Din - Slippkonsert",
-      "date": "2026-08-29",
-      "time": "20:00:00",
-      "venue": "Parkteatret Scene, Oslo",
-      "city": "Oslo",
-      "category": "Music / Hip-Hop/Rap",
-      "url": "https://www.ticketmaster.no/event/typen-din-slippkonsert-billetter/745060449",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるヒップホップ・ラップコンサート。Typen Dinが出演する音楽イベント。"
-    },
-    {
-      "title": "Amerika",
-      "date": "2026-08-29",
-      "time": "20:00:00",
-      "venue": "Kirkeparken, Svelvik",
-      "city": "Svelvik",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/amerika-billetter/403549185",
-      "source": "Ticketmaster",
-      "description": "アメリカを題材にした演劇作品。スヴェルヴィクで上演される舞台芸術。"
-    },
-    {
-      "title": "Kiki’s Burly Q",
-      "date": "2026-08-29",
-      "time": "21:00:00",
-      "venue": "Oslo Nye Teaterkjelleren",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Variety",
-      "url": "https://www.ticketmaster.no/event/kikis-burly-q-billetter/569178649",
-      "source": "Ticketmaster",
-      "description": "キキのバーレスク・ショー。オスロで開催される、多彩なパフォーマンスを融合させた舞台芸術イベント。"
-    },
-    {
-      "title": "Steikje Løye med Oskar Fjørtoft & Vidar Magnussen",
-      "date": "2026-08-29",
-      "time": "21:00:00",
-      "venue": "nieu grünerløkka",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Miscellaneous Theatre",
-      "url": "https://www.ticketmaster.no/event/steikje-loye-med-oskar-fjortoft--vidar-magnussen-billetter/1528470178",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの演劇パフォーマー、オスカル・フヨルトフトとヴィダル・マグヌッセンによるステージパフォーマンス。"
-    },
-    {
-      "title": "Klubb Millennium",
-      "date": "2026-08-29",
-      "time": "21:00:00",
-      "venue": "Vulkan Arena",
-      "city": "Oslo",
-      "category": "Music / Dance/Electronic",
-      "url": "https://www.ticketmaster.no/event/klubb-millennium-billetter/1750194609",
-      "source": "Ticketmaster",
-      "description": "オスロで開催される電子音楽とダンスミュージックを中心とした音楽イベント。"
-    },
-    {
-      "title": "Boglárka Börcsök & Andreas Bolm \"SUBJOYRIDE\"",
-      "date": "2026-08-29",
-      "time": "21:00:00",
-      "venue": "Black Box Teater, Store Scene",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Miscellaneous Theatre",
-      "url": "https://www.ticketmaster.no/event/boglarka-borcsok--andreas-bolm-subjoyride-billetter/814561140",
-      "source": "Ticketmaster",
-      "description": "ボグラルカとアンドレアスによるユニークなパフォーマンス芸術作品。"
-    },
-    {
-      "title": "Frantzvaag",
-      "date": "2026-08-29",
-      "time": "23:00:00",
-      "venue": "BLÅ Brenneriveien 9c 0182 Oslo",
-      "city": "Oslo",
-      "category": "Music / Dance/Electronic",
-      "url": "https://www.ticketmaster.no/event/frantzvaag-billetter/855825894",
-      "source": "Ticketmaster",
-      "description": "オスロで開催される電子音楽とダンスの融合イベント。"
-    },
-    {
-      "title": "Besøk Oscarshall 2026 - AVLYST",
-      "date": "2026-08-29",
-      "time": "",
-      "venue": "Oscarshall slott",
-      "city": "Oslo",
-      "category": "Miscellaneous / Family",
-      "url": "https://www.ticketmaster.no/event/besok-oscarshall-2026-avlyst-billetter/828865666",
-      "source": "Ticketmaster",
-      "description": "オスカルスホール訪問2026は中止となりました。"
-    },
-    {
-      "title": "Dronning Sonja KunstStall - AVLYST",
-      "date": "2026-08-29",
-      "time": "",
-      "venue": "Dronning Sonja KunstStall",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/dronning-sonja-kunststall-avlyst-billetter/884430665",
-      "source": "Ticketmaster",
-      "description": "ソフィア女王美術展示会は中止となりました。"
-    },
-    {
-      "title": "GLAMORAMA",
-      "date": "2026-08-29",
-      "time": "18:30:00",
-      "venue": "Park Lane",
-      "city": "Göteborg",
-      "category": "Arts & Theatre / Spectacular",
-      "url": "https://www.ticketmaster.se/event/glamorama-biljetter/1217225552",
-      "source": "Ticketmaster",
-      "description": "グローバルな現代アートとパフォーマンスが融合した豪華で幻想的なスペクタクル。"
-    },
-    {
-      "title": "SWEDISH HOUSE MAFIA",
-      "date": "2026-08-29",
-      "time": "19:30:00",
-      "venue": "Ullevi",
-      "city": "Göteborg",
-      "category": "Music / Dance/Electronic",
-      "url": "https://www.ticketmaster.se/event/swedish-house-mafia-biljetter/557930036",
-      "source": "Ticketmaster",
-      "description": "スウェーデンの電子音楽プロデューサーグループによるダンスミュージックパフォーマンス。"
-    },
-    {
-      "title": "Soppkurs på Grefsenkollen",
-      "date": "2026-08-30",
-      "time": "11:00:00",
-      "venue": "Grefsenkollen",
-      "city": "Oslo",
-      "category": "Music / Pop",
-      "url": "https://www.ticketmaster.no/event/soppkurs-pa-grefsenkollen-billetter/71453561",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの首都オスロで開催されるポップミュージックコンサート。"
-    },
-    {
-      "title": "Ole Brumm på eventyr",
-      "date": "2026-08-30",
-      "time": "13:30:00",
-      "venue": "Skillebekk Scene",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/ole-brumm-pa-eventyr-billetter/1499226616",
-      "source": "Ticketmaster",
-      "description": "クマのオーレ・ブルムの冒険を描いた、ノルウェーの劇作品。"
-    },
-    {
-      "title": "Pia Maria Roll og Mohamed Mohamed: Male Fantasies",
-      "date": "2026-08-30",
-      "time": "14:00:00",
-      "venue": "Black Box Teater, Lille Scene",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Miscellaneous Theatre",
-      "url": "https://www.ticketmaster.no/event/pia-maria-roll-og-mohamed-mohamed-male-fantasies-billetter/996909509",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの男性パフォーマーによる舞台作品。男らしさのテーマを探求する実験的な演劇公演。"
-    },
-    {
-      "title": "The Brazz Brothers gjester JHM skolekorps og Hovin Musikkorps",
-      "date": "2026-08-30",
-      "time": "16:00:00",
-      "venue": "Ullensaker Kulturhus",
-      "city": "Jessheim",
-      "category": "Music / Other",
-      "url": "https://www.ticketmaster.no/event/the-brazz-brothers-gjester-jhm-skolekorps-og-hovin-musikkorps-billetter/86149292",
-      "source": "Ticketmaster",
-      "description": "ブラッズ・ブラザーズがノルウェーの学校音楽隊と合同演奏するコンサート。"
-    },
-    {
-      "title": "Klassisk på Park: Isa Gericke – Ho elskar. Ho lever.",
-      "date": "2026-08-30",
-      "time": "17:30:00",
-      "venue": "Parkteatret Scene, Oslo",
-      "city": "Oslo",
-      "category": "Music / Pop",
-      "url": "https://www.ticketmaster.no/event/klassisk-pa-park-isa-gericke--ho-elskar-ho-lever-billetter/342799867",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるイサ・ゲリッケによるポップコンサート。彼女の音楽と人生を愛で満たすライブパフォーマンス。"
-    },
-    {
-      "title": "Lyskonsert med drømmehvile",
-      "date": "2026-08-30",
-      "time": "17:30:00",
-      "venue": "Emanuel Vigeland museum",
-      "city": "Oslo",
-      "category": "Music / World",
-      "url": "https://www.ticketmaster.no/event/lyskonsert-med-drommehvile-billetter/452529301",
-      "source": "Ticketmaster",
-      "description": "オスロで開催される、ドリームハイブの音楽コンサート。世界音楽の魅力を体験できます。"
-    },
-    {
-      "title": "Ron Sexsmith",
-      "date": "2026-08-30",
-      "time": "19:00:00",
-      "venue": "John Dee",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/ron-sexsmith-and-band-billetter/1747035996",
-      "source": "Ticketmaster",
-      "description": "カナダの実力派シンガーソングライター、ロン・セックスミスのロックコンサート。"
-    },
-    {
-      "title": "Lars Dehli med gjester - Live podcast",
-      "date": "2026-08-30",
-      "time": "19:00:00",
-      "venue": "Carls - Arena",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Cultural",
-      "url": "https://www.ticketmaster.no/event/lars-dehli-med-gjester-live-podcast-billetter/272679972",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの著名人ラース・デーリによるゲスト出演者を招いたライブポッドキャスト番組。"
-    },
-    {
-      "title": "Prøveshow: Hvis Gud Vil",
-      "date": "2026-08-30",
-      "time": "19:00:00",
-      "venue": "nieu torshov",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Miscellaneous Theatre",
-      "url": "https://www.ticketmaster.no/event/proveshow-hvis-gud-vil-billetter/2066686057",
-      "source": "Ticketmaster",
-      "description": "ノルウェー語のタイトルを持つオスロでの演劇作品。神の意志をテーマにした実験的舞台作品です。"
-    },
-    {
-      "title": "King Parrot + Shaving The Werewolf",
-      "date": "2026-08-30",
-      "time": "20:00:00",
-      "venue": "Vaterland Bar & Scene",
-      "city": "Oslo",
-      "category": "Music / Metal",
-      "url": "https://www.ticketmaster.no/event/king-parrot--shaving-the-werewolf-billetter/749086406",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるメタルバンド、キング・パロット とシェービング・ザ・ウェアウルフのライブ。"
-    },
-    {
-      "title": "Besøk Oscarshall 2026 - AVLYST",
-      "date": "2026-08-30",
-      "time": "",
-      "venue": "Oscarshall slott",
-      "city": "Oslo",
-      "category": "Miscellaneous / Family",
-      "url": "https://www.ticketmaster.no/event/besok-oscarshall-2026-avlyst-billetter/90652061",
-      "source": "Ticketmaster",
-      "description": "オスロのオスカルシャル宮殿訪問イベント2026は中止になりました。"
-    },
-    {
-      "title": "Dronning Sonja KunstStall - AVLYST",
-      "date": "2026-08-30",
-      "time": "",
-      "venue": "Dronning Sonja KunstStall",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/dronning-sonja-kunststall-avlyst-billetter/1509565562",
-      "source": "Ticketmaster",
-      "description": "オスロで開催予定だった王妃ソニャ美術館のイベントが中止になりました。"
-    },
-    {
-      "title": "Kveldsarrangement Seriedagene",
-      "date": "2026-08-31",
-      "time": "18:00:00",
-      "venue": "Carls - Arena",
-      "city": "Oslo",
-      "category": "Music / Pop",
-      "url": "https://www.ticketmaster.no/event/kveldsarrangement-seriedagene-billetter/1897094520",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるポップ音楽のイベント。"
-    },
-    {
-      "title": "GAVEKORT-ULLENSAKER KULTURHUS",
-      "date": "2026-08-31",
-      "time": "23:59:00",
-      "venue": "Ullensaker Kulturhus",
-      "city": "Jessheim",
-      "category": "Miscellaneous / Undefined",
-      "url": "https://www.ticketmaster.no/event/gavekort-ullensaker-kulturhus-billetter/62272479",
-      "source": "Ticketmaster",
-      "description": "ノルウェー・ジェッシハイムの文化施設での多様なイベント開催。"
-    },
-    {
-      "title": "Gavekort Oslo Nye Teater | August 2026 - August 2027",
-      "date": "2026-08-31",
-      "time": "",
-      "venue": "Oslo",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/gavekort-oslo-nye-teater-%7C-august-2026-august-2027-billetter/1162029586",
-      "source": "Ticketmaster",
-      "description": "オスロの新劇場で上演される、2026年8月から2027年8月までの演劇作品チケット。"
-    },
-    {
-      "title": "Oslo Queer Line Dance",
-      "date": "2026-09-01",
-      "time": "19:00:00",
-      "venue": "BLÅ Brenneriveien 9c 0182 Oslo",
-      "city": "Oslo",
-      "category": "Music / Dance/Electronic",
-      "url": "https://www.ticketmaster.no/event/oslo-queer-line-dance-billetter/1575342829",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるクイアコミュニティ向けのラインダンスと電子音楽のイベント。"
-    },
-    {
-      "title": "Folk Bitch Trio",
-      "date": "2026-09-01",
-      "time": "19:00:00",
-      "venue": "BLÅ Brenneriveien 9c 0182 Oslo",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/folk-bitch-trio-billetter/1834037122",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるロックバンド「Folk Bitch Trio」のライブイベント。"
-    },
-    {
-      "title": "Jay Buchanan - WEAPONS of BEAUTY (solo acoustic show)",
-      "date": "2026-09-01",
-      "time": "20:00:00",
-      "venue": "The Abyss",
-      "city": "Göteborg",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.se/event/jay-buchanan-weapons-of-beauty-solo-acoustic-show--biljetter/1373352548",
-      "source": "Ticketmaster",
-      "description": "ロックシンガーJay Buchananがゴーテボリで行うソロアコースティック公演。"
-    },
-    {
-      "title": "Ole Brumm på eventyr",
-      "date": "2026-09-02",
-      "time": "17:15:00",
-      "venue": "Trikkestallen",
-      "city": "Oslo",
-      "category": "Miscellaneous / Family",
-      "url": "https://www.ticketmaster.no/event/ole-brumm-pa-eventyr-billetter/1381249596",
-      "source": "Ticketmaster",
-      "description": "オーレ・ブルムのキャラクターが登場する、オスロで開催される家族向けの冒険イベント。"
-    },
-    {
-      "title": "Dylan Earl & Johan Berggren",
-      "date": "2026-09-02",
-      "time": "19:00:00",
-      "venue": "John Dee",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/dylan-earl--johan-berggren-billetter/1886067598",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるディラン・アール&ヨハン・ベルグレンのロックライブコンサート。"
-    },
-    {
-      "title": "Chicago",
-      "date": "2026-09-02",
-      "time": "19:00:00",
-      "venue": "Chateau Neuf,Storsalen",
-      "city": "Oslo",
-      "category": "Music / R&B",
-      "url": "https://www.ticketmaster.no/event/chicago-billetter/619099530",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるシカゴのR&B音楽ライブイベント。"
-    },
-    {
-      "title": "På Sterke Vinger - Minnekonsert for Bernt Bodal | FLYTTET- RØVERSTADEN",
-      "date": "2026-09-02",
-      "time": "19:30:00",
-      "venue": "Røverstaden",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Cultural",
-      "url": "https://www.ticketmaster.no/event/pa-sterke-vinger-minnekonsert-for-bernt-bodal-%7C-flyttet-rverstaden-billetter/91408109",
-      "source": "Ticketmaster",
-      "description": "ベルント・ボーダルを偲ぶ追悼コンサート。オスロのレヴォスターシュタッデンで開催。"
-    },
-    {
-      "title": "Løkka Calling presenterer Rattlesnake Milk - AVLYST",
-      "date": "2026-09-02",
-      "time": "20:00:00",
-      "venue": "Mir",
-      "city": "Oslo",
-      "category": "Music / Alternative",
-      "url": "https://www.ticketmaster.no/event/lokka-calling-presenterer-rattlesnake-milk-avlyst-billetter/801837568",
-      "source": "Ticketmaster",
-      "description": "オスロで開催予定だったRattlesnake Milkのライブコンサートは、キャンセルされました。"
-    },
-    {
-      "title": "Shakespeare i Borggården - MACBETH",
-      "date": "2026-09-03",
-      "time": "14:00:00",
-      "venue": "Borggården Akershus slott",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/shakespeare-i-borggarden-macbeth-billetter/504045778",
-      "source": "Ticketmaster",
-      "description": "シェイクスピアの傑作『マクベス』をオスロの歴史的な城郭で上演する劇場イベント。"
-    },
-    {
-      "title": "RAMÓN",
-      "date": "2026-09-03",
-      "time": "19:00:00",
-      "venue": "Sentrum Scene",
-      "city": "Oslo",
-      "category": "Music / Hip-Hop/Rap",
-      "url": "https://www.ticketmaster.no/event/ramon-billetter/255543291",
-      "source": "Ticketmaster",
-      "description": "ラップシーンの最新トレンドを体験できるオスロのヒップホップ音楽イベント。"
-    },
-    {
-      "title": "Espen Abrahamsen - Avantgarde",
-      "date": "2026-09-03",
-      "time": "19:00:00",
-      "venue": "nieu grünerløkka",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Miscellaneous Theatre",
-      "url": "https://www.ticketmaster.no/event/espen-abrahamsen-avantgarde-billetter/1461397028",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの前衛的なパフォーマンスアーティスト、エスペン・アブラハムセンによるアヴァンギャルド作品。"
-    },
-    {
-      "title": "TREHOLT | Premiere",
-      "date": "2026-09-03",
-      "time": "19:00:00",
-      "venue": "Oslo Nye Teater",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/treholt-%7C-premiere-billetter/349353109",
-      "source": "Ticketmaster",
-      "description": "オスロで上演される舞台作品TREHOLTのプレミア公演。"
-    },
-    {
-      "title": "Madeléne + Support: Oda Rose + Bare Andy",
-      "date": "2026-09-03",
-      "time": "19:00:00",
-      "venue": "Parkteatret Scene, Oslo",
-      "city": "Oslo",
-      "category": "Music / Pop",
-      "url": "https://www.ticketmaster.no/event/madelene--support-oda-rose--bare-andy-billetter/147302683",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるポップミュージックライブ。MadelèneがOda RoseとBare Andyのサポート出演で登場。"
-    },
-    {
-      "title": "Chicago",
-      "date": "2026-09-03",
-      "time": "19:00:00",
-      "venue": "Chateau Neuf,Storsalen",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/chicago-billetter/71899356",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるシカゴをテーマにした劇場芸術イベント。"
-    },
-    {
-      "title": "Harr & Hartberg på Sundbytunet",
-      "date": "2026-09-03",
-      "time": "19:00:00",
-      "venue": "Sundbytunet",
-      "city": "Jessheim",
-      "category": "Music / Blues",
-      "url": "https://www.ticketmaster.no/event/harr--hartberg-pa-sundbytunet-billetter/783161003",
-      "source": "Ticketmaster",
-      "description": "ジェッシェイムで開催されるハルとハルトベルグによるブルースライブイベント。"
-    },
-    {
-      "title": "SLIPPKONSERT: Tuva Grandahl «Solskinn/Solstikk»",
-      "date": "2026-09-03",
-      "time": "19:30:00",
-      "venue": "Kulturhuset / Laboratoriet",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/slippkonsert-tuva-grandahl-solskinn-solstikk-billetter/977635125",
-      "source": "Ticketmaster",
-      "description": "ノルウェーのオスロで開催されるトゥーヴァ・グランダール のロックコンサート。"
-    },
-    {
-      "title": "Finn tre feil",
-      "date": "2026-09-03",
-      "time": "19:30:00",
-      "venue": "Latter",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Spectacular",
-      "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1614945168",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの舞台作品。3つの誤りを探す参加型アート・シアターの壮大なパフォーマンス。"
-    },
-    {
-      "title": "Folkeutrydning, eller leveren min er meningsløs",
-      "date": "2026-09-03",
-      "time": "20:00:00",
-      "venue": "Oslo Nye Teaterkjelleren",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/folkeutrydning-eller-leveren-min-er-meningslos-billetter/1754385176",
-      "source": "Ticketmaster",
-      "description": "オスロで開催される演劇作品。民間伝承と現代的なテーマを融合させた舞台表現。"
-    },
-    {
-      "title": "HOT GUYS CLUB - DAG 1",
-      "date": "2026-09-03",
-      "time": "23:00:00",
-      "venue": "BLÅ Brenneriveien 9c 0182 Oslo",
-      "city": "Oslo",
-      "category": "Music / Pop",
-      "url": "https://www.ticketmaster.no/event/hot-guys-club-dag-1-billetter/1408289508",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるポップミュージックイベントの初日。ホットガイズクラブの楽しいライブ。"
-    },
-    {
-      "title": "Dronning Sonja KunstStall - AVLYST",
-      "date": "2026-09-03",
-      "time": "",
-      "venue": "Dronning Sonja KunstStall",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/dronning-sonja-kunststall-avlyst-billetter/696535880",
-      "source": "Ticketmaster",
-      "description": "オスロで予定されていた王妃ソニャ美術館のイベントが中止になりました。"
-    },
-    {
-      "title": "Punkt 2026 Dagspass Torsdag",
-      "date": "2026-09-03",
-      "time": "11:00:00",
-      "venue": "Teateret",
-      "city": "Kristiansand S",
-      "category": "Music / Other",
-      "url": "https://www.ticketmaster.no/event/punkt-2026-dagspass-torsdag-billetter/1379262353",
-      "source": "Ticketmaster",
-      "description": "クリスチャンサンで開催される音楽フェスティバルの木曜日1日券。"
-    },
-    {
-      "title": "Punkt 2026 Festivalpass",
-      "date": "2026-09-03",
-      "time": "",
-      "venue": "Teateret",
-      "city": "Kristiansand S",
-      "category": "Music / Jazz",
-      "url": "https://www.ticketmaster.no/event/punkt-2026-festivalpass-billetter/526508978",
-      "source": "Ticketmaster",
-      "description": "ノルウェーのクリスチャンサンドで開催されるジャズ音楽フェスティバルの2026年パスです。"
-    },
-    {
-      "title": "Shakespeare i Borggården - MACBETH",
-      "date": "2026-09-04",
-      "time": "14:00:00",
-      "venue": "Borggården Akershus slott",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/shakespeare-i-borggarden-macbeth-billetter/1814677444",
-      "source": "Ticketmaster",
-      "description": "シェイクスピアの傑作『マクベス』をオスロの歴史的な城塞で上演する舞台作品。"
-    },
-    {
-      "title": "Jonas Fjeld – Setter bagen fra seg - EKSTRAKONSERT!",
-      "date": "2026-09-04",
-      "time": "17:00:00",
-      "venue": "Bragernes Torg",
-      "city": "Drammen",
-      "category": "Sports / Miscellaneous",
-      "url": "https://www.ticketmaster.no/event/jonas-fjeld--setter-bagen-fra-seg-ekstrakonsert-billetter/2052201288",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの有名なミュージシャンジョナス・フィエルドによるドラメン開催の特別コンサート。"
-    },
-    {
-      "title": "RAMÓN",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "Sentrum Scene",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/ramon-billetter/579002139",
-      "source": "Ticketmaster",
-      "description": "ノルウェー・オスロで開催されるロックミュージックイベント。"
-    },
-    {
-      "title": "Norwegian Military Tattoo",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "Oslo Spektrum",
-      "city": "Oslo",
-      "category": "Miscellaneous / Family",
-      "url": "https://www.ticketmaster.no/event/norsk-militaer-tattoo-2026-%7C-avlyst-billetter/337262982",
-      "source": "Ticketmaster",
-      "description": "ノルウェー軍楽隊による迫力のパフォーマンスとミリタリーパレード。"
-    },
-    {
-      "title": "Dance with a Stranger",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "Rockefeller",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/dance-with-a-stranger-billetter/1660264570",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるロックミュージックイベント。見知らぬ人と踊って音楽を楽しむ。"
-    },
-    {
-      "title": "Espen Abrahamsen - Avantgarde",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "nieu grünerløkka",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Miscellaneous Theatre",
-      "url": "https://www.ticketmaster.no/event/espen-abrahamsen-avantgarde-billetter/1458624808",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの前衛的な舞台作品。オスロで展開される実験的で革新的なテアター表現。"
-    },
-    {
-      "title": "TREHOLT",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "Oslo Nye Teater",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/treholt-billetter/717663625",
-      "source": "Ticketmaster",
-      "description": "オスロで開催される演劇イベント。現代舞台表現を探求し、革新的な劇作品や実験的なパフォーマンスを紹介します。"
-    },
-    {
-      "title": "Veps | Ny dato!",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "BLÅ Brenneriveien 9c 0182 Oslo",
-      "city": "Oslo",
-      "category": "Music / Alternative",
-      "url": "https://www.ticketmaster.no/event/veps-%7C-ny-dato-billetter/745320542",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるオルタナティブミュージックイベント。Vepsが新しい日程で開催。"
-    },
-    {
-      "title": "Koldbrann",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "Parkteatret Scene, Oslo",
-      "city": "Oslo",
-      "category": "Music / Metal",
-      "url": "https://www.ticketmaster.no/event/koldbrann-billetter/383258558",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるメタルミュージックフェスティバル。"
-    },
-    {
-      "title": "Finn tre feil",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "Latter",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Spectacular",
-      "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1339369270",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの舞台芸術。3つの誤りを探すインタラクティブな劇的パフォーマンス。"
-    },
-    {
-      "title": "Chicago",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "Chateau Neuf,Storsalen",
-      "city": "Oslo",
-      "category": "Music / R&B",
-      "url": "https://www.ticketmaster.no/event/chicago-billetter/598198256",
-      "source": "Ticketmaster",
-      "description": "シカゴのR&Bミュージシャンの音楽ライブ、オスロで開催。"
-    },
-    {
-      "title": "Punkorama // Festivalpass // Kometen",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "Kometen",
-      "city": "Drammen",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/punkorama-festivalpass-kometen-billetter/1612788998",
-      "source": "Ticketmaster",
-      "description": "ドラムメンで開催されるパンク・ロック音楽フェスティバル。複数アーティストの出演を楽しめます。"
-    },
-    {
-      "title": "Punkorama // Fredagspass // Kometen",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "Kometen",
-      "city": "Drammen",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/punkorama-fredagspass-kometen-billetter/42285539",
-      "source": "Ticketmaster",
-      "description": "ドラメン開催のロックフェスティバル。パンク・ロック系バンドが多数出演する金曜夜のイベント。"
-    },
-    {
-      "title": "Norwegian Military Tattoo - Tattoo Exclusive",
-      "date": "2026-09-04",
-      "time": "19:01:00",
-      "venue": "Oslo Spektrum",
-      "city": "Oslo",
-      "category": "Miscellaneous / Family",
-      "url": "https://www.ticketmaster.no/event/utsolgt-norsk-militaer-tattoo-tattoo-exclusive-%7C-avlyst-billetter/1033081606",
-      "source": "Ticketmaster",
-      "description": "ノルウェー軍による壮大なタトゥーショー。軍楽隊とパフォーマーが繰り広げる迫力のエンターテインメント。"
-    },
-    {
-      "title": "DJ Reform94",
-      "date": "2026-09-04",
-      "time": "20:00:00",
-      "venue": "John Dee",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/dj-reform94-billetter/46642421",
-      "source": "Ticketmaster",
-      "description": "オスロで開催されるロック系DJイベント。Reform94による音楽パフォーマンス。"
-    },
-    {
-      "title": "Folkeutrydning, eller leveren min er meningsløs",
-      "date": "2026-09-04",
-      "time": "20:00:00",
-      "venue": "Oslo Nye Teaterkjelleren",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/folkeutrydning-eller-leveren-min-er-meningslos-billetter/649743797",
-      "source": "Ticketmaster",
-      "description": "オスロで開催される実験的な演劇作品。肝臓をテーマにした前衛的なパフォーマンス。"
-    },
-    {
-      "title": "Delusional  - I Killed A Man",
-      "date": "2026-09-04",
-      "time": "20:00:00",
-      "venue": "Sirkuslandsbyen, Torshovparken",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Circus & Specialty Acts",
-      "url": "https://www.ticketmaster.no/event/delusional-i-killed-a-man-billetter/1404249744",
-      "source": "Ticketmaster",
-      "description": "精神錯乱をテーマにした、サーカスやスペシャルパフォーマンスの芸術作品。"
-    },
     {
       "title": "nieu show",
       "date": "2026-09-04",
@@ -902,7 +11,7 @@
       "category": "Arts & Theatre / Miscellaneous Theatre",
       "url": "https://www.ticketmaster.no/event/nieu-show-billetter/2044329430",
       "source": "Ticketmaster",
-      "description": "オスロで開催される多様な舞台芸術を展示するイベント。"
+      "description": "オスロで開催される劇場・舞台パフォーマンスのイベント。"
     },
     {
       "title": "Sleggefett",
@@ -913,7 +22,18 @@
       "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.no/event/sleggefett-billetter/60328232",
       "source": "Ticketmaster",
-      "description": "ノルウェーの劇場イベント。創造的なパフォーマンスと革新的な舞台表現を特徴とした演劇祭。"
+      "description": "ノルウェーの演劇イベント。リレストロム地域で開催される芸術・演劇作品の祭典。"
+    },
+    {
+      "title": "Espen Abrahamsen - Avantgarde // UTSOLGT",
+      "date": "2026-09-04",
+      "time": "21:30:00",
+      "venue": "nieu grünerløkka",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Miscellaneous Theatre",
+      "url": "https://www.ticketmaster.no/event/espen-abrahamsen-avantgarde-utsolgt-billetter/454904134",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの前衛芸術家エスペン・アブラハムセンによる実験的舞台作品。"
     },
     {
       "title": "Vors med Taume og Nuutti",
@@ -924,7 +44,7 @@
       "category": "Arts & Theatre / Miscellaneous Theatre",
       "url": "https://www.ticketmaster.no/event/vors-med-taume-og-nuutti-billetter/686617784",
       "source": "Ticketmaster",
-      "description": "ノルウェー発の創意的な演劇作品。実験的で独創的なパフォーマンスを展開。"
+      "description": "オスロで開催される、ノルウェーの伝統的なパフォーマンスと現代劇を融合させた舞台作品。"
     },
     {
       "title": "One Direction Club Night",
@@ -935,7 +55,7 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/one-direction-club-night-billetter/1765305474",
       "source": "Ticketmaster",
-      "description": "ワン・ダイレクションの音楽を特集したナイトクラブイベント。オスロで開催されます。"
+      "description": "ワン・ダイレクション特集のロックナイト。オスロで開催されるミュージックイベント。"
     },
     {
       "title": "HOT GUYS CLUB - DAG 2",
@@ -946,51 +66,7 @@
       "category": "Music / Pop",
       "url": "https://www.ticketmaster.no/event/hot-guys-club-dag-2-billetter/1862705128",
       "source": "Ticketmaster",
-      "description": "オスロで開催されるポップミュージックイベントの第2日目。ホットガイズクラブの続編。"
-    },
-    {
-      "title": "Dronning Sonja KunstStall - AVLYST",
-      "date": "2026-09-04",
-      "time": "",
-      "venue": "Dronning Sonja KunstStall",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/dronning-sonja-kunststall-avlyst-billetter/1049982781",
-      "source": "Ticketmaster",
-      "description": "オスロで開催予定だった女王ソンヤ芸術祭は中止となりました。"
-    },
-    {
-      "title": "GLAMORAMA",
-      "date": "2026-09-04",
-      "time": "18:30:00",
-      "venue": "Park Lane",
-      "city": "Göteborg",
-      "category": "Arts & Theatre / Spectacular",
-      "url": "https://www.ticketmaster.se/event/glamorama-biljetter/346718615",
-      "source": "Ticketmaster",
-      "description": "グレットボリで開催される壮大な舞台芸術イベント。豪華で華麗なパフォーマンスが特徴。"
-    },
-    {
-      "title": "Frölunda HC-SaiPa Lappeenranta (FIN)",
-      "date": "2026-09-04",
-      "time": "19:00:00",
-      "venue": "Frölundaborg",
-      "city": "Göteborg",
-      "category": "Sports / Hockey",
-      "url": "https://fhc.tmtickets.se/EDP/Event/Index/421?position=2",
-      "source": "Ticketmaster",
-      "description": "スウェーデンのアイスホッケーリーグでフローレンダとサイパ・ラッペーンランタの対戦試合。"
-    },
-    {
-      "title": "Punkt 2026 Dagpass Fredag",
-      "date": "2026-09-04",
-      "time": "18:00:00",
-      "venue": "Teateret",
-      "city": "Kristiansand S",
-      "category": "Music / Jazz",
-      "url": "https://www.ticketmaster.no/event/punkt-2026-dagpass-fredag-billetter/1316402512",
-      "source": "Ticketmaster",
-      "description": "ノルウェー・クリスチャンサンドで開催される2026年のジャズ音楽フェスティバルの金曜日1日券。"
+      "description": "オスロで開催されるポップミュージックイベント「HOT GUYS CLUB」の2日目。"
     },
     {
       "title": "Bugge Wesseltoft / Arild Andersen / Gard Nilssen",
@@ -998,10 +74,10 @@
       "time": "22:00:00",
       "venue": "Teateret",
       "city": "Kristiansand S",
-      "category": "Music / Jazz",
+      "category": "Music / Undefined",
       "url": "https://www.ticketmaster.no/event/bugge-wesseltoft-arild-andersen-gard-nilssen-billetter/1965920351",
       "source": "Ticketmaster",
-      "description": "ノルウェーの一流ジャズミュージシャンによるトリオ公演。"
+      "description": "ノルウェーの一流ジャズミュージシャン3人による共演ライブ。"
     },
     {
       "title": "Organ recital with Stefan Engels",
@@ -1012,7 +88,7 @@
       "category": "Music / Classical",
       "url": "https://www.ticketmaster.no/event/orgelkonsert-med-stefan-engels-billetter/2006472185",
       "source": "Ticketmaster",
-      "description": "オスロで開催されるステファン・エンゲルスによるオルガンコンサート。クラシック音楽の優雅な響きをお楽しみください。"
+      "description": "オスロでのステファン・エングルスによるオルガンリサイタル。クラシック音楽の優雅な音色をお楽しみください。"
     },
     {
       "title": "KARIUS & BAKTUS",
@@ -1023,7 +99,7 @@
       "category": "Miscellaneous / Hobby/Special Interest Expos",
       "url": "https://www.ticketmaster.no/event/karius--baktus-billetter/836219633",
       "source": "Ticketmaster",
-      "description": "ノルウェーの児童文学キャラクターによるホビー・特別展示イベント。"
+      "description": "ノルウェーの児童文学キャラクターを題材にした、家族向けの特別展示イベント。"
     },
     {
       "title": "Captain Frodo's Magiske Eventyr",
@@ -1034,7 +110,7 @@
       "category": "Arts & Theatre / Circus & Specialty Acts",
       "url": "https://www.ticketmaster.no/event/captain-frodos-magiske-eventyr-billetter/829211578",
       "source": "Ticketmaster",
-      "description": "キャプテン・フロドーの魔法の冒険。サーカスと演劇が融合した、子どもから大人まで楽しめるオスロの舞台作品。"
+      "description": "フロード船長の魔法の冒険を描いたサーカスパフォーマンス。奇想天外な舞台が繰り広げられます。"
     },
     {
       "title": "Norwegian Military Tattoo",
@@ -1045,7 +121,7 @@
       "category": "Arts & Theatre / Spectacular",
       "url": "https://www.ticketmaster.no/event/norsk-militaer-tattoo-2026-%7C-avlyst-billetter/265270490",
       "source": "Ticketmaster",
-      "description": "ノルウェー軍による壮大なタットゥーショー。軍楽隊の演奏と華麗な行進が融合した壮観なパフォーマンス。"
+      "description": "ノルウェー軍による豪華な軍事音楽と演技の壮大なスペクタクルショー。"
     },
     {
       "title": "Reven",
@@ -1056,7 +132,7 @@
       "category": "Arts & Theatre / Circus & Specialty Acts",
       "url": "https://www.ticketmaster.no/event/reven-billetter/282984381",
       "source": "Ticketmaster",
-      "description": "サーカスやスペシャリティ・アクトを特徴とした、オスロで開催される芸術演劇イベント。"
+      "description": "サーカスやスペシャルアクトを中心とした芸術的なパフォーマンスイベント。"
     },
     {
       "title": "Ole Brumm på eventyr",
@@ -1064,21 +140,10 @@
       "time": "13:30:00",
       "venue": "Skillebekk Scene",
       "city": "Oslo",
-      "category": "Arts & Theatre / Children's Theatre",
+      "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.no/event/ole-brumm-pa-eventyr-billetter/713219333",
       "source": "Ticketmaster",
-      "description": "クマのオーレの冒険を描いた、子ども向けの舞台作品。"
-    },
-    {
-      "title": "Ronja Røverdatter",
-      "date": "2026-09-05",
-      "time": "15:30:00",
-      "venue": "Trikkestallen",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Children's Theatre",
-      "url": "https://www.ticketmaster.no/event/ronja-roverdatter-billetter/447175107",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの児童文学を舞台化した、冒険と友情の物語。子どもたちを魅了する家族向け劇作品。"
+      "description": "ノルウェーの児童文学キャラクターの冒険を舞台化した作品。"
     },
     {
       "title": "Streetboys - U18",
@@ -1089,7 +154,7 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/streetboys-u18-billetter/1442388355",
       "source": "Ticketmaster",
-      "description": "ロック音楽フェスティバル。オスロで開催される18歳未満向けのストリートボーイズイベント。"
+      "description": "オスロで開催される18歳以下向けのロックミュージックイベント。"
     },
     {
       "title": "Chicago",
@@ -1097,10 +162,10 @@
       "time": "16:00:00",
       "venue": "Chateau Neuf,Storsalen",
       "city": "Oslo",
-      "category": "Music / R&B",
+      "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.no/event/chicago-billetter/675293275",
       "source": "Ticketmaster",
-      "description": "オスロで開催されるR&Bミュージックイベント「Chicago」。"
+      "description": "シカゴの舞台作品。オスロで上演される、欲望と犯罪をテーマにしたミュージカル。"
     },
     {
       "title": "Jonas Fjeld – Setter bagen fra seg – UTSOLGT",
@@ -1111,7 +176,7 @@
       "category": "Sports / Miscellaneous",
       "url": "https://www.ticketmaster.no/event/jonas-fjeld--setter-bagen-fra-seg--utsolgt-billetter/1352508270",
       "source": "Ticketmaster",
-      "description": "ノルウェーの著名人ジョナス・フィールドによるイベントで、売り切れ状態。"
+      "description": "ノルウェーのドラメンで開催されるJonas Fjeldのイベント。売り切れ状態。"
     },
     {
       "title": "PÅKLEDEREN av Ronald Harwood | Premiere",
@@ -1122,7 +187,7 @@
       "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.no/event/paklederen-av-ronald-harwood-%7C-premiere-billetter/2067439975",
       "source": "Ticketmaster",
-      "description": "ロナルド・ハーウッド作の舞台作品の初演。オスロで上演される劇場イベント。"
+      "description": "ロナルド・ハーウッド作の演劇作品「パクレデレン」のオスロでのプレミア上演。"
     },
     {
       "title": "TREHOLT",
@@ -1133,18 +198,7 @@
       "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.no/event/treholt-billetter/440258863",
       "source": "Ticketmaster",
-      "description": "オスロで開催される演劇イベント。革新的な舞台作品と実験的なパフォーマンスを紹介します。"
-    },
-    {
-      "title": "Shakespeare i Borggården - MACBETH",
-      "date": "2026-09-05",
-      "time": "18:00:00",
-      "venue": "Borggården Akershus slott",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/shakespeare-i-borggarden-macbeth-billetter/1147916581",
-      "source": "Ticketmaster",
-      "description": "シェイクスピア作『マクベス』をオスロの歴史的要塞で上演する劇場イベント。"
+      "description": "オスロで開催される演劇イベント。創造的なパフォーマンスと舞台表現を通じた芸術体験。"
     },
     {
       "title": "Norwegian Military Tattoo - Tattoo Exclusive",
@@ -1155,7 +209,7 @@
       "category": "Arts & Theatre / Spectacular",
       "url": "https://www.ticketmaster.no/event/utsolgt-norsk-militaer-tattoo-tattoo-exclusive-%7C-avlyst-billetter/1560413400",
       "source": "Ticketmaster",
-      "description": "ノルウェー軍による壮大なタットゥーパフォーマンス。軍楽隊と儀式的演技の融合した圧巻のショー。"
+      "description": "ノルウェー軍による華麗な軍楽隊パフォーマンス。音楽と動きの壮大なショー。"
     },
     {
       "title": "RAMÓN",
@@ -1166,7 +220,7 @@
       "category": "Music / Hip-Hop/Rap",
       "url": "https://www.ticketmaster.no/event/ramon-billetter/1566477923",
       "source": "Ticketmaster",
-      "description": "オスロで開催されるヒップホップ/ラップミュージックイベント。ラモンの魅力的なパフォーマンスを体験できます。"
+      "description": "ラッパーRAMÓNによるヒップホップ/ラップライブがオスロで開催される音楽イベント。"
     },
     {
       "title": "Håndgemeng",
@@ -1177,7 +231,18 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/handgemeng-billetter/1518400833",
       "source": "Ticketmaster",
-      "description": "ノルウェーのロックバンド、ハンドゲメングの音楽イベント。"
+      "description": "ノルウェーの首都オスロで開催されるロックミュージックイベント。"
+    },
+    {
+      "title": "Espen Abrahamsen - Avantgarde // UTSOLGT",
+      "date": "2026-09-05",
+      "time": "19:00:00",
+      "venue": "nieu grünerløkka",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Miscellaneous Theatre",
+      "url": "https://www.ticketmaster.no/event/espen-abrahamsen-avantgarde-utsolgt-billetter/1258104458",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの前衛芸術家エスペン・アブラハムセンによる実験的演劇作品。"
     },
     {
       "title": "BLAKSTA - Slippkonsert - Avlyst!",
@@ -1188,7 +253,18 @@
       "category": "Music / Pop",
       "url": "https://www.ticketmaster.no/event/blaksta-slippkonsert-avlyst-billetter/1605244040",
       "source": "Ticketmaster",
-      "description": "オスロで予定されていたポップミュージックコンサートが中止になったイベント。"
+      "description": "オスロで予定されていたBLAKSTAのポップコンサートが中止になりました。"
+    },
+    {
+      "title": "Finn tre feil",
+      "date": "2026-09-05",
+      "time": "19:00:00",
+      "venue": "Latter",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Spectacular",
+      "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1850010909",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの舞台芸術作品。オスロで上演される劇的で壮大なパフォーマンス。"
     },
     {
       "title": "Punkorama // Lørdagspass // Kometen",
@@ -1199,18 +275,18 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/punkorama-lordagspass-kometen-billetter/60936147",
       "source": "Ticketmaster",
-      "description": "パンク音楽フェスティバルの土曜日チケット。ノルウェーのドラメン市で開催されるロックイベント。"
+      "description": "ドラメンのコメーテンで開催されるパンク音楽フェスティバルの土曜日パス。"
     },
     {
-      "title": "Fake Eclipse + Kingseeker + Nivå",
+      "title": "Nivå + Kingseeker + Diva",
       "date": "2026-09-05",
       "time": "20:00:00",
       "venue": "Vaterland Bar & Scene",
       "city": "Oslo",
       "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/fake-eclipse--kingseeker--niva-billetter/1274065102",
+      "url": "https://www.ticketmaster.no/event/niva--kingseeker--diva-billetter/1274065102",
       "source": "Ticketmaster",
-      "description": "オスロで開催されるロックライブ。Fake EclipseとKingseekerおよびNivåが出演。"
+      "description": "オスロで開催される、ニヴォ、キングシーカー、ディーヴァが出演するロックコンサート。"
     },
     {
       "title": "Streetboys",
@@ -1218,32 +294,10 @@
       "time": "20:00:00",
       "venue": "Rockefeller",
       "city": "Oslo",
-      "category": "Music / Rock",
+      "category": "Music / Hip-Hop/Rap",
       "url": "https://www.ticketmaster.no/event/streetboys-billetter/178559534",
       "source": "Ticketmaster",
-      "description": "ロック・ストリートボーイズのオスロでのライブ。エネルギッシュなパフォーマンスをお楽しみください。"
-    },
-    {
-      "title": "OMBORD",
-      "date": "2026-09-05",
-      "time": "20:00:00",
-      "venue": "SALT, Langhuset",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Cultural",
-      "url": "https://www.ticketmaster.no/event/ombord-billetter/1280681159",
-      "source": "Ticketmaster",
-      "description": "ノルウェーの現代アート・演劇作品を集めた国際的な文化交流イベント。"
-    },
-    {
-      "title": "mclusky",
-      "date": "2026-09-05",
-      "time": "20:00:00",
-      "venue": "SALT, Den Arktiske Hovedscena",
-      "city": "Oslo",
-      "category": "Music / Rock",
-      "url": "https://www.ticketmaster.no/event/mclusky-billetter/1898518330",
-      "source": "Ticketmaster",
-      "description": "ウェールズの前衛的なポストハードコアバンド、mcluskyのロックコンサート。"
+      "description": "オスロで開催されるヒップホップ・ラップのライブイベント。ストリートボーイズのパフォーマンスを楽しめます。"
     },
     {
       "title": "Delusional  - I Killed A Man",
@@ -1254,7 +308,7 @@
       "category": "Arts & Theatre / Circus & Specialty Acts",
       "url": "https://www.ticketmaster.no/event/delusional-i-killed-a-man-billetter/1351055790",
       "source": "Ticketmaster",
-      "description": "人間を殺したという妄想に取り憑かれた人物の心理を、サーカス的手法で舞台化した芸術作品。"
+      "description": "人を殺したという妄想に取り憑かれた人物の心理状態を描く実験的舞台作品。"
     },
     {
       "title": "KISS Tribute - Coverman",
@@ -1265,7 +319,7 @@
       "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.no/event/kiss-tribute-coverman-billetter/880658267",
       "source": "Ticketmaster",
-      "description": "KISSの名曲を演奏するトリビュートバンドのライブパフォーマンス。"
+      "description": "キスのトリビュートバンドによるカバーライブ。ロックレジェンドの楽曲を忠実に再現。"
     },
     {
       "title": "Cabaret Club",
@@ -1276,7 +330,7 @@
       "category": "Arts & Theatre / Spectacular",
       "url": "https://www.ticketmaster.no/event/cabaret-club-billetter/958632829",
       "source": "Ticketmaster",
-      "description": "キャバレーやショーなどを楽しむ、オスロの芸術的エンターテインメント施設。"
+      "description": "キャバレーショーや歌、ダンスなどを楽しむ大人向けの劇場エンターテイメント。"
     },
     {
       "title": "Maddix",
@@ -1287,7 +341,7 @@
       "category": "Music / Dance/Electronic",
       "url": "https://www.ticketmaster.no/event/maddix-billetter/800005071",
       "source": "Ticketmaster",
-      "description": "オスロで開催される電子音楽とダンスミュージックの祭典。"
+      "description": "オスロで開催される電子音楽とダンスミュージックのフェスティバル。"
     },
     {
       "title": "nieu show",
@@ -1298,7 +352,18 @@
       "category": "Arts & Theatre / Miscellaneous Theatre",
       "url": "https://www.ticketmaster.no/event/nieu-show-billetter/1940953586",
       "source": "Ticketmaster",
-      "description": "ノルウェーの舞台芸術やパフォーマンスを紹介する多様なショー。"
+      "description": "オスロで開催される多様な舞台芸術を紹介する総合的なシアターイベント。"
+    },
+    {
+      "title": "Espen Abrahamsen - Avantgarde",
+      "date": "2026-09-05",
+      "time": "21:30:00",
+      "venue": "nieu grünerløkka",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Miscellaneous Theatre",
+      "url": "https://www.ticketmaster.no/event/espen-abrahamsen-avantgarde-billetter/991954039",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの前衛舞台芸術作品。オスロで展開される実験的で革新的なパフォーマンス。"
     },
     {
       "title": "Francesco Poggi",
@@ -1309,7 +374,7 @@
       "category": "Music / Dance/Electronic",
       "url": "https://www.ticketmaster.no/event/francesco-poggi-billetter/1208114102",
       "source": "Ticketmaster",
-      "description": "ノルウェーのリレストレムで開催される、エレクトロニック音楽とダンスのイベント。"
+      "description": "エレクトロニック音楽のDJパフォーマンスイベント。リレストレムで開催。"
     },
     {
       "title": "HOT GUYS CLUB - DAG 3",
@@ -1320,7 +385,7 @@
       "category": "Music / Pop",
       "url": "https://www.ticketmaster.no/event/hot-guys-club-dag-3-billetter/1114425858",
       "source": "Ticketmaster",
-      "description": "オスロで開催されるポップミュージックイベント「HOT GUYS CLUB」の3日目。"
+      "description": "オスロで開催されるポップミュージックイベントの第3日目。ホットガイズクラブが主催。"
     },
     {
       "title": "Dronning Sonja KunstStall - AVLYST",
@@ -1328,10 +393,10 @@
       "time": "",
       "venue": "Dronning Sonja KunstStall",
       "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
+      "category": "Miscellaneous / Hobby/Special Interest Expos",
       "url": "https://www.ticketmaster.no/event/dronning-sonja-kunststall-avlyst-billetter/1060306329",
       "source": "Ticketmaster",
-      "description": "ノルウェー王妃ソンニャが名誉総裁を務める美術展覧会の中止のお知らせです。"
+      "description": "ノルウェー女王ソニャ関連の美術品展示イベントが中止になりました。"
     },
     {
       "title": "GLAMORAMA",
@@ -1342,7 +407,7 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.se/event/glamorama-biljetter/1700899737",
       "source": "Ticketmaster",
-      "description": "ゴーテボルグで開催されるロックミュージックイベント。華やかで迫力あるパフォーマンスが魅力。"
+      "description": "ロックミュージックの祭典。ゴテボリで開催される大規模な音楽イベント。"
     },
     {
       "title": "Punkt 2026 Dagspass Lørdag",
@@ -1353,7 +418,7 @@
       "category": "Music / Jazz",
       "url": "https://www.ticketmaster.no/event/punkt-2026-dagspass-lordag-billetter/344225564",
       "source": "Ticketmaster",
-      "description": "クリスティアンサンドで開催されるPunkt音楽祭のジャズ関連イベント。土曜日の日帰りパス。"
+      "description": "クリスチャンサンで開催されるPunkt音楽祭のジャズ日帰りパス。2026年土曜日。"
     },
     {
       "title": "Dirty Old Town pres: Archipelagic + venner",
@@ -1361,10 +426,10 @@
       "time": "21:00:00",
       "venue": "Kafé Krank / Laboratoriet",
       "city": "Kristiansand S",
-      "category": "Music / Alternative",
+      "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/dirty-old-town-pres-archipelagic--venner-billetter/910740695",
       "source": "Ticketmaster",
-      "description": "ノルウェーの都市で開催される、Archipelagicとvennerによるオルタナティブミュージックイベント。"
+      "description": "ノルウェーのクリスチャンサンドで開催されるロック音楽イベント。"
     },
     {
       "title": "KARIUS & BAKTUS",
@@ -1375,18 +440,7 @@
       "category": "Miscellaneous / Family",
       "url": "https://www.ticketmaster.no/event/karius--baktus-billetter/591650961",
       "source": "Ticketmaster",
-      "description": "ノルウェーの民話を題材にした、家族向けの楽しい舞台作品。"
-    },
-    {
-      "title": "Ole Brumm på eventyr",
-      "date": "2026-09-06",
-      "time": "12:00:00",
-      "venue": "Trikkestallen",
-      "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/ole-brumm-pa-eventyr-billetter/1134350777",
-      "source": "Ticketmaster",
-      "description": "クマのオーレ・ブルムの冒険を描いた劇作品。オスロで上演されるファミリー向けシアター。"
+      "description": "ノルウェーの民話を題材にした家族向けの舞台作品。子どもたちの冒険物語。"
     },
     {
       "title": "Captain Frodo's Magiske Eventyr",
@@ -1397,7 +451,7 @@
       "category": "Arts & Theatre / Circus & Specialty Acts",
       "url": "https://www.ticketmaster.no/event/captain-frodos-magiske-eventyr-billetter/393600916",
       "source": "Ticketmaster",
-      "description": "魔法の冒険を繰り広げるサーカス・パフォーマンス。キャプテン・フロドのユニークな世界観を体験できます。"
+      "description": "フロド船長による魔法の冒険。サーカスと舞台表現が融合した、ユニークなエンターテインメント。"
     },
     {
       "title": "Norwegian Military Tattoo",
@@ -1408,7 +462,7 @@
       "category": "Miscellaneous / Family",
       "url": "https://www.ticketmaster.no/event/norsk-militaer-tattoo-2026-%7C-avlyst-billetter/2088228690",
       "source": "Ticketmaster",
-      "description": "ノルウェー軍による音楽と行進パフォーマンス。家族向けの壮大な軍事タットゥーイベント。"
+      "description": "ノルウェー軍による音楽と行進の壮大なパフォーマンス。家族で楽しめるエンターテインメント。"
     },
     {
       "title": "Reven",
@@ -1419,7 +473,7 @@
       "category": "Arts & Theatre / Circus & Specialty Acts",
       "url": "https://www.ticketmaster.no/event/reven-billetter/1136355052",
       "source": "Ticketmaster",
-      "description": "サーカスと特殊技芸による芸術パフォーマンス。オスロで開催される創意的なエンターテインメント。"
+      "description": "ノルウェー・オスロで開催されるサーカスやアート系の特殊な演技を特徴とした演劇イベント。"
     },
     {
       "title": "OGQ2 - NY DATO: 06.09.2026!",
@@ -1427,32 +481,32 @@
       "time": "13:00:00",
       "venue": "Chateau Neuf,Storsalen",
       "city": "Oslo",
-      "category": "Sports / Miscellaneous",
+      "category": "Sports / Martial Arts",
       "url": "https://www.ticketmaster.no/event/ogq2-ny-dato-06092026-billetter/329888671",
       "source": "Ticketmaster",
-      "description": "オスロで開催される2026年6月9日のスポーツ・その他のイベント。"
+      "description": "オスロで開催される格闘技イベント。2026年6月9日開催予定。"
     },
     {
-      "title": "Shakespeare i Borggården - MACBETH",
+      "title": "Ole Brumm på eventyr",
       "date": "2026-09-06",
-      "time": "18:00:00",
-      "venue": "Borggården Akershus slott",
+      "time": "13:30:00",
+      "venue": "Skillebekk Scene",
       "city": "Oslo",
       "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/shakespeare-i-borggarden-macbeth-billetter/1361613659",
+      "url": "https://www.ticketmaster.no/event/ole-brumm-pa-eventyr-billetter/1164416883",
       "source": "Ticketmaster",
-      "description": "シェイクスピアの悲劇「マクベス」をオスロの歴史的な庭園で上演する野外劇。"
+      "description": "オーレ・ブルムのキャラクターによる冒険を描いたノルウェーの子ども向け舞台作品。"
     },
     {
-      "title": "Gongbad/meditativ konsert - inspirert av naturen, mytene og nomadene",
+      "title": "UTSOLGT:Gongbad/meditativ konsert - naturen, mytene og nomadene",
       "date": "2026-09-06",
       "time": "18:00:00",
       "venue": "Emanuel Vigeland museum",
       "city": "Oslo",
       "category": "Arts & Theatre / Theatre",
-      "url": "https://www.ticketmaster.no/event/gongbad-meditativ-konsert-inspirert-av-naturen-mytene-og-nomadene-billetter/204118234",
+      "url": "https://www.ticketmaster.no/event/utsolgtgongbad-meditativ-konsert-naturen-mytene-og-nomadene-billetter/204118234",
       "source": "Ticketmaster",
-      "description": "自然、神話、遊牧民に着想を得た瞑想的コンサート。"
+      "description": "ノルウェーの自然と神話、遊牧民をテーマにした瞑想的なコンサート。"
     },
     {
       "title": "Masterwork recital - Beethoven/Grieg/Liszt recital",
@@ -1463,7 +517,7 @@
       "category": "Music / Classical",
       "url": "https://www.ticketmaster.no/event/mesterverkkonsert-beethoven-grieg-liszt-recital-billetter/336874606",
       "source": "Ticketmaster",
-      "description": "ベートーヴェン、グリーグ、リストの名作を演奏するクラシック音楽の独奏会。"
+      "description": "ベートーヴェン、グリーグ、リストの傑作を演奏するクラシック・リサイタル。"
     },
     {
       "title": "Funebrarum + Nedgravd",
@@ -1474,7 +528,18 @@
       "category": "Music / Metal",
       "url": "https://www.ticketmaster.no/event/funebrarum--nedgravd-billetter/2085240758",
       "source": "Ticketmaster",
-      "description": "オスロで開催されるメタルバンドFunebrarmとNedgravdのライブコンサート。"
+      "description": "オスロで開催されるメタルバンドFunebraurumとNedgravdのライブコンサート。"
+    },
+    {
+      "title": "Gongbad/meditativ konsert - inspirert av naturen, mytene og nomadene",
+      "date": "2026-09-06",
+      "time": "20:00:00",
+      "venue": "Emanuel Vigeland museum",
+      "city": "Oslo",
+      "category": "Music / Other",
+      "url": "https://www.ticketmaster.no/event/gongbad-meditativ-konsert-inspirert-av-naturen-mytene-og-nomadene-billetter/453860192",
+      "source": "Ticketmaster",
+      "description": "自然と神話、遊牧民の世界観から着想を得た瞑想的なコンサート。"
     },
     {
       "title": "Dronning Sonja KunstStall - AVLYST",
@@ -1482,10 +547,10 @@
       "time": "",
       "venue": "Dronning Sonja KunstStall",
       "city": "Oslo",
-      "category": "Arts & Theatre / Theatre",
+      "category": "Miscellaneous / Fairs & Festivals",
       "url": "https://www.ticketmaster.no/event/dronning-sonja-kunststall-avlyst-billetter/51583365",
       "source": "Ticketmaster",
-      "description": "オスロで予定されていた女王ソニャ美術展が中止になりました。"
+      "description": "ノルウェーの女王ソンヤ関連の美術イベントが中止となりました。"
     },
     {
       "title": "Frölunda HC-KooKoo Kouvola (FIN)",
@@ -1496,18 +561,18 @@
       "category": "Sports / Hockey",
       "url": "https://fhc.tmtickets.se/EDP/Event/Index/422?position=3",
       "source": "Ticketmaster",
-      "description": "スウェーデンのイーストボール・リーグの試合。ゴットボリのフローランダHCとフィンランドのクークー・クーボラが対戦します。"
+      "description": "スウェーデンのイェテボリで開催されるフローランダHCとフィンランドのクークー・コウヴォラのアイスホッケー試合。"
     },
     {
-      "title": "Gongbad/meditativ konsert - Inspirert av naturen, mytene og nomadene",
+      "title": "UTSOLGT: Gongbad/meditativ konsert - naturen, mytene og nomadene",
       "date": "2026-09-07",
       "time": "17:30:00",
       "venue": "Emanuel Vigeland museum",
       "city": "Oslo",
-      "category": "Music / Other",
-      "url": "https://www.ticketmaster.no/event/gongbad-meditativ-konsert-inspirert-av-naturen-mytene-og-nomadene-billetter/993941018",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/utsolgt-gongbad-meditativ-konsert-naturen-mytene-og-nomadene-billetter/993941018",
       "source": "Ticketmaster",
-      "description": "自然、神話、遊牧民に影響を受けた瞑想的なゴング音楽コンサート。"
+      "description": "ノルウェーの民族音楽と瞑想的なコンサートで、自然と神話と遊牧民をテーマにしたオスロでの劇場イベント。"
     },
     {
       "title": "Devin Townsend",
@@ -1518,7 +583,7 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/devin-townsend-billetter/207717953",
       "source": "Ticketmaster",
-      "description": "カナダの音楽プロデューサー兼ボーカリストDevrin Townsendのロックコンサート。"
+      "description": "デヴィン・タウンゼントのロックコンサート。オスロで開催される。"
     },
     {
       "title": "The Waterboys – Fisherman’s Blues Revue featuring Steve Earle",
@@ -1529,7 +594,18 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/the-waterboys--fishermans-blues-revue-featuring-steve-earle-billetter/410529549",
       "source": "Ticketmaster",
-      "description": "ウォーターボーイズとスティーヴ・アール共演、フィッシャーマンズ・ブルースの魅力を再現するロックコンサート。"
+      "description": "ウォーターボーイズがスティーブ・アール出演でフィッシャーマンズ・ブルースを披露するロックコンサート。"
+    },
+    {
+      "title": "Gongbad/meditativ konsert - Inspirert av naturen, mytene og nomadene",
+      "date": "2026-09-07",
+      "time": "19:30:00",
+      "venue": "Emanuel Vigeland museum",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/gongbad-meditativ-konsert-inspirert-av-naturen-mytene-og-nomadene-billetter/747827919",
+      "source": "Ticketmaster",
+      "description": "自然、神話、遊牧民にインスパイアされた瞑想的なコンサート。"
     },
     {
       "title": "AVLYST | 10 Years of 6LACK Tour",
@@ -1540,7 +616,7 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/avlyst-%7C-10-years-of-6lack-tour-billetter/1449955423",
       "source": "Ticketmaster",
-      "description": "6LACKの10周年記念ツアーがオスロで開催されるロックコンサート。"
+      "description": "6LACKの10周年ツアー。ノルウェーの首都オスロでの音楽ライブイベント。"
     },
     {
       "title": "Maustetytöt",
@@ -1551,7 +627,18 @@
       "category": "Music / Alternative",
       "url": "https://www.ticketmaster.no/event/maustetytot-billetter/1927321201",
       "source": "Ticketmaster",
-      "description": "フィンランドの実験的音楽ユニット、オスロでのアルターナティブ・ミュージックイベント。"
+      "description": "フィンランドの実験的なポップバンドが、オスロでオルタナティブな音楽ライブを開催。"
+    },
+    {
+      "title": "PRØVESHOW: BMI - Verdens Beste Show 3",
+      "date": "2026-09-08",
+      "time": "19:00:00",
+      "venue": "nieu torshov",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/prveshow-bmi-verdens-beste-show-3-billetter/455891486",
+      "source": "Ticketmaster",
+      "description": "ノルウェーのオスロで開催される劇場アート作品。世界最高のショーを目指す実験的な舞台作品。"
     },
     {
       "title": "Dødsvitner Frilans Teatergruppen: Dødsvitner",
@@ -1562,18 +649,18 @@
       "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.no/event/dodsvitner-frilans-teatergruppen-dodsvitner-billetter/61511753",
       "source": "Ticketmaster",
-      "description": "ノルウェーの劇団による実験的な舞台作品。死と証人をテーマにした独創的な演劇表現。"
+      "description": "ノルウェーの劇団による舞台作品。死と証人をテーマにした実験的な演劇作品。"
     },
     {
       "title": "Kepler Teater: Character Work",
       "date": "2026-09-09",
       "time": "17:00:00",
-      "venue": "Cafescenen, Centralteateret",
+      "venue": "Cafescenen, Centralteatret",
       "city": "Oslo",
       "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.no/event/kepler-teater-character-work-billetter/775428751",
       "source": "Ticketmaster",
-      "description": "オスロのKepler Teaterで行われるキャラクター表現技法に関する演劇ワークショップ。"
+      "description": "オスロの劇場で行われるキャラクター作りに焦点を当てた演劇ワークショップ。"
     },
     {
       "title": "Ole Brumm på eventyr",
@@ -1581,10 +668,10 @@
       "time": "17:00:00",
       "venue": "Trikkestallen",
       "city": "Oslo",
-      "category": "Miscellaneous / Family",
+      "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.no/event/ole-brumm-pa-eventyr-billetter/1139422176",
       "source": "Ticketmaster",
-      "description": "ノルウェーの人気キャラクター、オーレ・ブルムの冒険をテーマにした家族向けイベント。"
+      "description": "ノルウェーの児童文学キャラクターが主人公の舞台作品。家族向けの冒険ファンタジー劇。"
     },
     {
       "title": "PÅKLEDEREN av Ronald Harwood",
@@ -1595,7 +682,7 @@
       "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.no/event/paklederen-av-ronald-harwood-billetter/616489262",
       "source": "Ticketmaster",
-      "description": "ロナルド・ハーウッド作の舞台作品。オスロで上演される演劇。"
+      "description": "ロナルド・ハーウッド作の舞台作品。オスロで上演される演劇イベント。"
     },
     {
       "title": "Papaya / Radioresepsjonen 20 år",
@@ -1606,7 +693,7 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/papaya-radioresepsjonen-20-ar-billetter/1629813697",
       "source": "Ticketmaster",
-      "description": "パパイヤのラジオレセプシヨーネン20周年記念ロックコンサート。"
+      "description": "パパイヤとラジオレセプション20周年を記念するロックコンサート。"
     },
     {
       "title": "Celebrating The Music of The Band",
@@ -1620,15 +707,37 @@
       "description": "バンドの音楽を祝うロックコンサート。オスロで開催される音楽イベント。"
     },
     {
-      "title": "Manneglass-Festivalen 2.0",
+      "title": "Manneglass-Festivalen 2.0 | Avlyst",
       "date": "2026-09-09",
       "time": "19:00:00",
       "venue": "Parkteatret Scene, Oslo",
       "city": "Oslo",
       "category": "Music / Pop",
-      "url": "https://www.ticketmaster.no/event/manneglass-festivalen-20-billetter/1305758133",
+      "url": "https://www.ticketmaster.no/event/manneglass-festivalen-20-%7C-avlyst-billetter/1305758133",
       "source": "Ticketmaster",
-      "description": "オスロで開催されるポップ音楽フェスティバル。"
+      "description": "オスロで開催予定だったポップミュージックフェスティバル。中止となりました。"
+    },
+    {
+      "title": "Finn tre feil",
+      "date": "2026-09-09",
+      "time": "19:00:00",
+      "venue": "Latter",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Spectacular",
+      "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1033946800",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの舞台作品で、視覚的な驚きと創造性に満ちたスペクタクルな演劇体験。"
+    },
+    {
+      "title": "Åpningskavalkade",
+      "date": "2026-09-09",
+      "time": "21:00:00",
+      "venue": "Oslo Nye Teaterkjelleren",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Spectacular",
+      "url": "https://www.ticketmaster.no/event/apningskavalkade-billetter/597542491",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される大規模な開幕パレード。音楽、ダンス、美術を融合させた壮大な舞台作品。"
     },
     {
       "title": "SDHL Frölunda - Färjestad | Premiär",
@@ -1639,7 +748,315 @@
       "category": "Sports / Hockey",
       "url": "https://fhc.tmtickets.se/EDP/Event/Index/401?position=1",
       "source": "Ticketmaster",
-      "description": "スウェーデンのアイスホッケーリーグ、フローランダ対ファイエスタッドの開幕戦。"
+      "description": "スウェーデンアイスホッケーの開幕戦。フローランダ対ファルイェスタッドの試合。"
+    },
+    {
+      "title": "Bransjepass / Delegate pass - by:Larm 2026",
+      "date": "2026-09-10",
+      "time": "10:00:00",
+      "venue": "by:Larm",
+      "city": "Oslo",
+      "category": "Music / Undefined",
+      "url": "https://www.universe.com/events/bransjepass-delegate-pass-by-larm-2026-tickets-W5J342?ref=ticketmaster",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される音楽業界向けの専門家パス。ネットワーキングと業界情報の交換が可能。"
+    },
+    {
+      "title": "Ole Brumm på eventyr",
+      "date": "2026-09-10",
+      "time": "10:30:00",
+      "venue": "Trikkestallen",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/ole-brumm-pa-eventyr-billetter/435836999",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの人気キャラクターを題材とした、オスロでの舞台作品です。"
+    },
+    {
+      "title": "HOW TO FLYER med Amanda Tunsberg",
+      "date": "2026-09-10",
+      "time": "14:30:00",
+      "venue": "Cafescenen, Centralteatret",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/how-to-flyer-med-amanda-tunsberg-billetter/181556720",
+      "source": "Ticketmaster",
+      "description": "アマンダ・タンスベルグによるフライヤー制作ワークショップ。デザインと表現方法を学ぶ。"
+    },
+    {
+      "title": "Fagsamtale med Oslo Teatersenter",
+      "date": "2026-09-10",
+      "time": "16:00:00",
+      "venue": "Cafescenen, Centralteatret",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/fagsamtale-med-oslo-teatersenter-billetter/763813062",
+      "source": "Ticketmaster",
+      "description": "オスロ劇場センターによる専門的な劇場についての座談会。"
+    },
+    {
+      "title": "Teater Leikhus: Mommy Cash",
+      "date": "2026-09-10",
+      "time": "16:30:00",
+      "venue": "Centralteateret Søylesalen",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/teater-leikhus-mommy-cash-billetter/2025431774",
+      "source": "Ticketmaster",
+      "description": "オスロの劇場で上演される、現代的なテーマを扱った舞台作品。"
+    },
+    {
+      "title": "Dagspass torsdag by:Larm 2026",
+      "date": "2026-09-10",
+      "time": "17:00:00",
+      "venue": "by:Larm",
+      "city": "Oslo",
+      "category": "Music / Undefined",
+      "url": "https://www.ticketmaster.no/event/dagspass-torsdag-bylarm-2026-billetter/1354077383",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される音楽イベント。ラーム主催の木曜日の日中パスチケット制度。"
+    },
+    {
+      "title": "KURTIXX & LYNG: 2 SLITNE KARER",
+      "date": "2026-09-10",
+      "time": "17:00:00",
+      "venue": "Gamle Raadhus Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/kurtixx--lyng-2-slitne-karer-billetter/1478968678",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される舞台作品。2人の異なるキャリアを描く現代劇です。"
+    },
+    {
+      "title": "Alaa Shehada: The Horse of Jenin",
+      "date": "2026-09-10",
+      "time": "18:00:00",
+      "venue": "OSLO, CENTRALTEATRET",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/alaa-shehada-the-horse-of-jenin-billetter/2054637157",
+      "source": "Ticketmaster",
+      "description": "パレスチナの少年とロバの絆を描く、感動的な舞台作品。"
+    },
+    {
+      "title": "Ellen Toft og Zofia Konieczka: Men du elska ein nordmann",
+      "date": "2026-09-10",
+      "time": "18:00:00",
+      "venue": "Gamle Raadhus Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/ellen-toft-og-zofia-konieczka-men-du-elska-ein-nordmann-billetter/1198358584",
+      "source": "Ticketmaster",
+      "description": "ノルウェー人男性との恋愛を描いたコメディ舞台作品。オスロで上演されます。"
+    },
+    {
+      "title": "FESTNINGEN FORTELLER – Stedsans Akershus festning - Avlyst!",
+      "date": "2026-09-10",
+      "time": "18:00:00",
+      "venue": "Karpedammen Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/festningen-forteller--stedsans-akershus-festning-avlyst-billetter/1029607026",
+      "source": "Ticketmaster",
+      "description": "オスロのアーケシュス要塞での劇場イベントが中止になりました。"
+    },
+    {
+      "title": "The Pussycat Dolls: PCD FOREVER TOUR",
+      "date": "2026-09-10",
+      "time": "18:30:00",
+      "venue": "Oslo Spektrum",
+      "city": "Oslo",
+      "category": "Music / Alternative",
+      "url": "https://www.ticketmaster.no/event/the-pussycat-dolls-pcd-forever-tour-billetter/1648606035",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるPussycat Dollsの復活ツアー公演。"
+    },
+    {
+      "title": "2AM-DM",
+      "date": "2026-09-10",
+      "time": "19:00:00",
+      "venue": "John Dee",
+      "city": "Oslo",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.no/event/2am-dm-billetter/1218268669",
+      "source": "Ticketmaster",
+      "description": "ノルウェーのオスロで開催されるロックミュージックイベント。"
+    },
+    {
+      "title": "TREHOLT",
+      "date": "2026-09-10",
+      "time": "19:00:00",
+      "venue": "Oslo Nye Teater",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/treholt-billetter/1006740991",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される劇場芸術イベント。演劇作品の上演や舞台表現を通じた文化交流の場。"
+    },
+    {
+      "title": "Piggtråd, apples & diamonds / Bertine Zetlitz - Få billetter igjen!",
+      "date": "2026-09-10",
+      "time": "19:00:00",
+      "venue": "Parkteatret Scene, Oslo",
+      "city": "Oslo",
+      "category": "Music / Pop",
+      "url": "https://www.ticketmaster.no/event/piggtrad-apples--diamonds-bertine-zetlitz-fa-billetter-igjen-billetter/201280124",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるベルティーネ・ゼットリッツのポップコンサート。残りチケットわずか。"
+    },
+    {
+      "title": "Chicago",
+      "date": "2026-09-10",
+      "time": "19:00:00",
+      "venue": "Chateau Neuf,Storsalen",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/chicago-billetter/1675478594",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるシカゴをテーマにした舞台作品。"
+    },
+    {
+      "title": "The Simon & Garfunkel Story",
+      "date": "2026-09-10",
+      "time": "19:00:00",
+      "venue": "Ullensaker Kulturhus",
+      "city": "Jessheim",
+      "category": "Arts & Theatre / Cultural",
+      "url": "https://www.ticketmaster.no/event/the-simon--garfunkel-story-billetter/1202978524",
+      "source": "Ticketmaster",
+      "description": "サイモン&ガーファンクルの音楽人生を舞台で表現した、懐かしのポップス時代を振り返るコンサート。"
+    },
+    {
+      "title": "by:Larm Black // Torsdag",
+      "date": "2026-09-10",
+      "time": "19:30:00",
+      "venue": "Kulturkirken Jakob",
+      "city": "Oslo",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.no/event/bylarm-black-torsdag-billetter/245249877",
+      "source": "Ticketmaster",
+      "description": "ノルウェー・オスロで毎週木曜に開催されるロック音楽イベント。"
+    },
+    {
+      "title": "Kompani Qviller: Breidablikk Alfa",
+      "date": "2026-09-10",
+      "time": "19:30:00",
+      "venue": "Centralteateret Søylesalen",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/kompani-qviller-breidablikk-alfa-billetter/1272808399",
+      "source": "Ticketmaster",
+      "description": "オスロの劇場で上演されるKompani Quillerの演劇作品。"
+    },
+    {
+      "title": "Diffus Produksjoner: Very Veritas",
+      "date": "2026-09-10",
+      "time": "19:30:00",
+      "venue": "Gamle Raadhus Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/diffus-produksjoner-very-veritas-billetter/660839024",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される現代劇。真実と虚実の境界を探求する実験的な舞台作品。"
+    },
+    {
+      "title": "Releasekonsert The TRUELOVES play Lee Clayton",
+      "date": "2026-09-10",
+      "time": "20:00:00",
+      "venue": "Mir",
+      "city": "Oslo",
+      "category": "Music / Other",
+      "url": "https://www.ticketmaster.no/event/releasekonsert-the-trueloves-play-lee-clayton-billetter/558079481",
+      "source": "Ticketmaster",
+      "description": "THE TRUELOVESがリー・クレイトンの楽曲を演奏するリリースコンサート。"
+    },
+    {
+      "title": "FRANK produksjoner: Bønder",
+      "date": "2026-09-10",
+      "time": "20:30:00",
+      "venue": "OSLO, CENTRALTEATRET",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/frank-produksjoner-bonder-billetter/471704065",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの劇団FRANKによる舞台作品。農民をテーマにした演劇作品です。"
+    },
+    {
+      "title": "ISKRA production: I am a witness of your existence",
+      "date": "2026-09-10",
+      "time": "20:30:00",
+      "venue": "Centralteateret Søylesalen",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/iskra-production-i-am-a-witness-of-your-existence-billetter/1078544142",
+      "source": "Ticketmaster",
+      "description": "オスロで行われる、存在の証人となることをテーマにした舞台作品。"
+    },
+    {
+      "title": "Folkeutrydning (eller levern min er meningsløs)» av Werner Schwab",
+      "date": "2026-09-10",
+      "time": "20:30:00",
+      "venue": "Gamle Raadhus Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/folkeutrydning-eller-levern-min-er-meningslos--av-werner-schwab-billetter/1593700536",
+      "source": "Ticketmaster",
+      "description": "オーストリアの劇作家ウェルナー・シュヴァープによる実験的な演劇作品。"
+    },
+    {
+      "title": "Espen Abrahamsen - Avantgarde",
+      "date": "2026-09-10",
+      "time": "21:30:00",
+      "venue": "nieu grünerløkka",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Miscellaneous Theatre",
+      "url": "https://www.ticketmaster.no/event/espen-abrahamsen-avantgarde-billetter/1418624714",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの前衛舞踊家エスペン・アブラハムセンによる実験的なパフォーマンス作品。"
+    },
+    {
+      "title": "nieu impro",
+      "date": "2026-09-10",
+      "time": "22:00:00",
+      "venue": "Oslo Nye Teaterkjelleren",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Spectacular",
+      "url": "https://www.ticketmaster.no/event/nieu-impro-billetter/713329670",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの即興演劇フェスティバル。オスロで開催される創造的なパフォーマンスイベント。"
+    },
+    {
+      "title": "by:Larm 2026 - KLUBB TORSDAG",
+      "date": "2026-09-10",
+      "time": "23:00:00",
+      "venue": "by:Larm",
+      "city": "Oslo",
+      "category": "Music / Other",
+      "url": "https://www.ticketmaster.no/event/bylarm-2026-klubb-torsdag-billetter/1792072381",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される音楽イベント。毎週木曜日にクラブで繰り広げられるパーティー。"
+    },
+    {
+      "title": "Festivalpass - by:Larm 2026",
+      "date": "2026-09-10",
+      "time": "",
+      "venue": "by:Larm",
+      "city": "Oslo",
+      "category": "Music / Folk",
+      "url": "https://www.ticketmaster.no/event/festivalpass-bylarm-2026-billetter/1893075353",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される北欧最大級の音楽フェスティバル。フォークを中心とした多様なジャンルの音楽が楽しめます。"
+    },
+    {
+      "title": "Dronning Sonja KunstStall - AVLYST",
+      "date": "2026-09-10",
+      "time": "",
+      "venue": "Dronning Sonja KunstStall",
+      "city": "Oslo",
+      "category": "Miscellaneous / Fairs & Festivals",
+      "url": "https://www.ticketmaster.no/event/dronning-sonja-kunststall-avlyst-billetter/1270997906",
+      "source": "Ticketmaster",
+      "description": "ノルウェー王妃ソーニャ美術館の催事が中止となったイベント。"
     },
     {
       "title": "Teater-Vardagshjältinnorna",
@@ -1650,7 +1067,7 @@
       "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.se/event/teater-vardagshjaltinnorna-biljetter/788062225",
       "source": "Ticketmaster",
-      "description": "スウェーデンの劇作品。日常の女性ヒーローたちをテーマにした舞台作品。"
+      "description": "スウェーデンの劇作品。日常の女性たちの物語を描いた舞台作品。"
     },
     {
       "title": "Soppteater-Vardagshjältinnorna",
@@ -1661,7 +1078,7 @@
       "category": "Arts & Theatre / Theatre",
       "url": "https://www.ticketmaster.se/event/soppteater-vardagshjaltinnorna-biljetter/968061778",
       "source": "Ticketmaster",
-      "description": "日常の英雄的な女性たちを描いたスウェーデン発の舞台作品。ゴテンボルクで上演。"
+      "description": "スウェーデンの演劇作品。日常の女性たちを主人公にした舞台作品。"
     },
     {
       "title": "Konsert med Oscar Danielson på Blå Kors",
@@ -1672,7 +1089,403 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/konsert-med-oscar-danielson-pa-bla-kors-billetter/449554348",
       "source": "Ticketmaster",
-      "description": "オスカル・ダニエルソンによるロックコンサート、ブルークロスで開催。"
+      "description": "オスカー・ダニエルソンによるロックコンサート。ブルークロスの会場で開催。"
+    },
+    {
+      "title": "FESTNINGEN FORTELLER – Stedsans Akershus festning - Avlyst!",
+      "date": "2026-09-11",
+      "time": "13:00:00",
+      "venue": "Karpedammen Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Cultural",
+      "url": "https://www.ticketmaster.no/event/festningen-forteller--stedsans-akershus-festning-avlyst-billetter/644990636",
+      "source": "Ticketmaster",
+      "description": "アケルシュス城塞の歴史と文化を体験する演劇的イベント。"
+    },
+    {
+      "title": "SCENEKUNSTBRUKET & KLODEN TEATER",
+      "date": "2026-09-11",
+      "time": "14:30:00",
+      "venue": "Cafescenen, Centralteatret",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/scenekunstbruket--kloden-teater-billetter/1991391283",
+      "source": "Ticketmaster",
+      "description": "オスロの劇場による芸術的な舞台作品。北欧の創造的な演劇表現を紹介するイベント。"
+    },
+    {
+      "title": "Teater Leikhus: Mommy Cash",
+      "date": "2026-09-11",
+      "time": "16:30:00",
+      "venue": "Centralteateret Søylesalen",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/teater-leikhus-mommy-cash-billetter/1706932511",
+      "source": "Ticketmaster",
+      "description": "アイスランドの劇作家による現代劇。母親と現金をテーマにした社会的メッセージを込めた舞台作品。"
+    },
+    {
+      "title": "Dagspass fredag by:Larm 2026",
+      "date": "2026-09-11",
+      "time": "17:00:00",
+      "venue": "by:Larm",
+      "city": "Oslo",
+      "category": "Music / Undefined",
+      "url": "https://www.ticketmaster.no/event/dagspass-fredag-bylarm-2026-billetter/1818017204",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される音楽フェスティバル。Larmが主催する金曜日のイベント。"
+    },
+    {
+      "title": "FRANK produksjoner: Hendelsen",
+      "date": "2026-09-11",
+      "time": "17:00:00",
+      "venue": "Gamle Raadhus Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/frank-produksjoner-hendelsen-billetter/1292380769",
+      "source": "Ticketmaster",
+      "description": "ノルウェーのオスロで開催される実験的な演劇作品。先鋭的なパフォーマンスアート。"
+    },
+    {
+      "title": "FESTNINGEN FORTELLER – Stedsans Akershus festning",
+      "date": "2026-09-11",
+      "time": "18:00:00",
+      "venue": "Karpedammen Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/festningen-forteller--stedsans-akershus-festning-billetter/134132167",
+      "source": "Ticketmaster",
+      "description": "アーケシュス要塞での歴史と現代を融合させた、場所の感覚を探索する舞台作品。"
+    },
+    {
+      "title": "TYSKERNE I 200!",
+      "date": "2026-09-11",
+      "time": "18:00:00",
+      "venue": "Carls - Storstua",
+      "city": "Oslo",
+      "category": "Music / Pop",
+      "url": "https://www.ticketmaster.no/event/tyskerne-i-200-billetter/2071752102",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるポップミュージックイベント。ドイツのアーティストが集結する音楽フェスティバル。"
+    },
+    {
+      "title": "Skutopio: Desideria",
+      "date": "2026-09-11",
+      "time": "18:30:00",
+      "venue": "Gamle Raadhus Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/skutopio-desideria-billetter/1035561646",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される、創造的で実験的な現代演劇作品の舞台。"
+    },
+    {
+      "title": "Live Laugh Løvland - Andrea Løvland",
+      "date": "2026-09-11",
+      "time": "18:30:00",
+      "venue": "Latter",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Spectacular",
+      "url": "https://www.ticketmaster.no/event/live-laugh-lovland-andrea-lovland-billetter/257555607",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの歌手アンドレア・ロヴランドによる、笑いと音楽に満ちた舞台パフォーマンス。"
+    },
+    {
+      "title": "Samuel Lola - By i flammer - AVLYST",
+      "date": "2026-09-11",
+      "time": "19:00:00",
+      "venue": "Harlem",
+      "city": "Oslo",
+      "category": "Music / Hip-Hop/Rap",
+      "url": "https://www.ticketmaster.no/event/samuel-lola-by-i-flammer-avlyst-billetter/142466627",
+      "source": "Ticketmaster",
+      "description": "オスロで開催予定だったサミュエル・ローラのヒップホップライブが中止になりました。"
+    },
+    {
+      "title": "Papaya / Radioresepsjonen 20 år",
+      "date": "2026-09-11",
+      "time": "19:00:00",
+      "venue": "Sentrum Scene",
+      "city": "Oslo",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.no/event/papaya-radioresepsjonen-20-ar-billetter/280654052",
+      "source": "Ticketmaster",
+      "description": "オスロの老舗ラジオスタジオReception20周年を記念するロックコンサートイベント。"
+    },
+    {
+      "title": "Krysspunkt 26",
+      "date": "2026-09-11",
+      "time": "19:00:00",
+      "venue": "John Dee",
+      "city": "Oslo",
+      "category": "Music / Pop",
+      "url": "https://www.ticketmaster.no/event/krysspunkt-26-billetter/814948043",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるポップミュージックイベント。"
+    },
+    {
+      "title": "Ingenting",
+      "date": "2026-09-11",
+      "time": "19:00:00",
+      "venue": "Rockefeller",
+      "city": "Oslo",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.no/event/ingenting-billetter/737581637",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるロックミュージックイベント。"
+    },
+    {
+      "title": "TREHOLT",
+      "date": "2026-09-11",
+      "time": "19:00:00",
+      "venue": "Oslo Nye Teater",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/treholt-billetter/696794508",
+      "source": "Ticketmaster",
+      "description": "オスロで行われる演劇イベント。革新的な作品を上演する劇場フェスティバル。"
+    },
+    {
+      "title": "Nessi, William Gamborg, Alessandra & Taus // Pres. Av Brass & TimeOut",
+      "date": "2026-09-11",
+      "time": "19:00:00",
+      "venue": "Parkteatret Scene, Oslo",
+      "city": "Oslo",
+      "category": "Music / Hip-Hop/Rap",
+      "url": "https://www.ticketmaster.no/event/nessi-william-gamborg-alessandra--taus-pres-av-brass--timeout-billetter/1656029327",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるヒップホップ/ラップの音楽イベント。Nessi、William Gamborg、Alessandraら豪華アーティストが出演。"
+    },
+    {
+      "title": "Finn tre feil",
+      "date": "2026-09-11",
+      "time": "19:00:00",
+      "venue": "Latter",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Spectacular",
+      "url": "https://www.ticketmaster.no/event/finn-tre-feil-billetter/1278666347",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの舞台芸術イベント。ユニークなパフォーマンスと視覚的な壮観さで観客を魅了します。"
+    },
+    {
+      "title": "Yuri Umemoto / Oslo Sinfonietta / Ivar Furre Aam: crypt_",
+      "date": "2026-09-11",
+      "time": "19:00:00",
+      "venue": "Black Box Teater, Store Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Miscellaneous Theatre",
+      "url": "https://www.ticketmaster.no/event/yuri-umemoto-oslo-sinfonietta-ivar-furre-aam-crypt_-billetter/464215731",
+      "source": "Ticketmaster",
+      "description": "ユリ・ウメモトとオスロ・シンフォニエッタによる実験的な音楽・演劇作品。"
+    },
+    {
+      "title": "Chicago",
+      "date": "2026-09-11",
+      "time": "19:00:00",
+      "venue": "Chateau Neuf,Storsalen",
+      "city": "Oslo",
+      "category": "Music / R&B",
+      "url": "https://www.ticketmaster.no/event/chicago-billetter/1537778022",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるR&Bミュージックイベント「Chicago」。黒人音楽の魅力を堪能できます。"
+    },
+    {
+      "title": "by:Larm Black // Fredag",
+      "date": "2026-09-11",
+      "time": "19:30:00",
+      "venue": "Kulturkirken Jakob",
+      "city": "Oslo",
+      "category": "Music / Undefined",
+      "url": "https://www.ticketmaster.no/event/bylarm-black-fredag-billetter/1393281356",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるブラック・ミュージック系の金曜夜のイベント。"
+    },
+    {
+      "title": "Samir Madad: Korte år, lange dager",
+      "date": "2026-09-11",
+      "time": "19:30:00",
+      "venue": "Oslo Nye Teaterkjelleren",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/samir-madad-korte-ar-lange-dager-billetter/427845525",
+      "source": "Ticketmaster",
+      "description": "オスロで上演される舞台作品。短い年月と長い日々をテーマにした演劇作品。"
+    },
+    {
+      "title": "FRITT FALL PRODUKSJONER: ARBEIDERPARTYET",
+      "date": "2026-09-11",
+      "time": "19:30:00",
+      "venue": "Centralteateret Søylesalen",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/fritt-fall-produksjoner-arbeiderpartyet-billetter/60406838",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの労働党をテーマにした演劇作品。社会政治的なメッセージを伝える舞台作品です。"
+    },
+    {
+      "title": "Elias Branæs, Erlend Kibsgård, Christina Wathne: Mal meg en dvergdachs",
+      "date": "2026-09-11",
+      "time": "19:30:00",
+      "venue": "Gamle Raadhus Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/elias-branaes-erlend-kibsgard-christina-wathne-mal-meg-en-dvergdachs-billetter/1880391159",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの劇作家たちによる舞台作品。オスロで上演される現代演劇。"
+    },
+    {
+      "title": "Gameshow med EmilAlex | flyttet til Carls, Arena",
+      "date": "2026-09-11",
+      "time": "19:30:00",
+      "venue": "Carls - Arena",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/gameshow-med-emilalex-%7C-flyttet-til-carls-arena-billetter/1562469024",
+      "source": "Ticketmaster",
+      "description": "ゲームショー形式の劇場公演。EmilAlexによるエンターテイメント作品がCarls Arenaで開催。"
+    },
+    {
+      "title": "Rheia + Tellus",
+      "date": "2026-09-11",
+      "time": "20:00:00",
+      "venue": "Vaterland Bar & Scene",
+      "city": "Oslo",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.no/event/rheia--tellus-billetter/2079164112",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるRheiaとTellusによるロックミュージックイベント。"
+    },
+    {
+      "title": "Von Disco",
+      "date": "2026-09-11",
+      "time": "20:00:00",
+      "venue": "Vulkan Arena",
+      "city": "Oslo",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.no/event/von-disco-billetter/1498969098",
+      "source": "Ticketmaster",
+      "description": "ロック音楽のディスコイベント。オスロで開催される、ロックとダンスミュージックが融合した音楽イベント。"
+    },
+    {
+      "title": "Hola Costello",
+      "date": "2026-09-11",
+      "time": "20:00:00",
+      "venue": "Trikkestallen",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/hola-costello-billetter/932122555",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される演劇イベント。Hola Costelloの舞台作品を上演します。"
+    },
+    {
+      "title": "Huldra - The Living Myth",
+      "date": "2026-09-11",
+      "time": "20:00:00",
+      "venue": "Sirkuslandsbyen, Torshovparken",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Circus & Specialty Acts",
+      "url": "https://www.ticketmaster.no/event/huldra-the-living-myth-billetter/369502726",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの民間伝説をテーマにした、サーカスと舞台芸術を融合させたパフォーマンス作品。"
+    },
+    {
+      "title": "Tuva Marie Eibak Larsen: TUVA MÅ GÅ",
+      "date": "2026-09-11",
+      "time": "20:30:00",
+      "venue": "Gamle Raadhus Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/tuva-marie-eibak-larsen-tuva-ma-ga-billetter/1704895123",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの演劇作品。オスロで上演される舞台パフォーマンス。"
+    },
+    {
+      "title": "Døgnfluer x Fringe klubb",
+      "date": "2026-09-11",
+      "time": "21:00:00",
+      "venue": "London Pub",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/dognfluer-x-fringe-klubb-billetter/1193260584",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される実験的劇場作品。フリンジ劇場の独創的なパフォーマンス。"
+    },
+    {
+      "title": "nieu show",
+      "date": "2026-09-11",
+      "time": "21:00:00",
+      "venue": "nieu torshov",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Miscellaneous Theatre",
+      "url": "https://www.ticketmaster.no/event/nieu-show-billetter/1554918720",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される演劇イベント。様々な舞台作品やパフォーマンスを紹介する総合的なショー。"
+    },
+    {
+      "title": "Teater Fisk AS: Siste sending",
+      "date": "2026-09-11",
+      "time": "21:15:00",
+      "venue": "Gamle Raadhus Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/teater-fisk-as-siste-sending-billetter/1671898829",
+      "source": "Ticketmaster",
+      "description": "ノルウェーのオスロで行われる劇場公演です。最後の上演となる特別な舞台作品。"
+    },
+    {
+      "title": "Bandcamp med Eric og Thomas",
+      "date": "2026-09-11",
+      "time": "21:30:00",
+      "venue": "nieu grünerløkka",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Miscellaneous Theatre",
+      "url": "https://www.ticketmaster.no/event/bandcamp-med-eric-og-thomas-billetter/36075339",
+      "source": "Ticketmaster",
+      "description": "バンドキャンプ演奏会。EricとThomasによるライブパフォーマンス。"
+    },
+    {
+      "title": "Det Andre Teatret: Olli Wermskogs Improvors",
+      "date": "2026-09-11",
+      "time": "22:00:00",
+      "venue": "Oslo Nye Teaterkjelleren",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/det-andre-teatret-olli-wermskogs-improvors-billetter/1118302767",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される即興演劇パフォーマンス。オリ・ウェルムスコグの即興劇団による創意的な舞台。"
+    },
+    {
+      "title": "Linni (18+)",
+      "date": "2026-09-11",
+      "time": "22:00:00",
+      "venue": "Chateau Neuf, Betong",
+      "city": "Oslo",
+      "category": "Music / Hip-Hop/Rap",
+      "url": "https://www.ticketmaster.no/event/linni-18--billetter/958625535",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される18才以上向けのヒップホップ/ラップ音楽イベント。"
+    },
+    {
+      "title": "by:Larm 2026 - KLUBB FREDAG",
+      "date": "2026-09-11",
+      "time": "23:59:00",
+      "venue": "by:Larm",
+      "city": "Oslo",
+      "category": "Music / Other",
+      "url": "https://www.ticketmaster.no/event/bylarm-2026-klubb-fredag-billetter/1639354102",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される音楽イベント。毎週金曜日にKLUBB FREDAGで様々なアーティストが出演します。"
+    },
+    {
+      "title": "Dronning Sonja KunstStall - AVLYST",
+      "date": "2026-09-11",
+      "time": "",
+      "venue": "Dronning Sonja KunstStall",
+      "city": "Oslo",
+      "category": "Miscellaneous / Fairs & Festivals",
+      "url": "https://www.ticketmaster.no/event/dronning-sonja-kunststall-avlyst-billetter/2002239496",
+      "source": "Ticketmaster",
+      "description": "ノルウェー王妃ソニャ美術展示会（キャンセル）"
     },
     {
       "title": "GLAMORAMA",
@@ -1683,7 +1496,161 @@
       "category": "Arts & Theatre / Spectacular",
       "url": "https://www.ticketmaster.se/event/glamorama-biljetter/1408949116",
       "source": "Ticketmaster",
-      "description": "グラマラス音楽とパフォーマンスで、ゴテボルグを華やかに彩る壮大なアートスペクタクル。"
+      "description": "グラマラマは、ゴテボリで開催される豪華で壮大なアート・シアターのスペクタクルイベント。"
+    },
+    {
+      "title": "Tigerstadsteateret: Tigertruppens Fabularium",
+      "date": "2026-09-12",
+      "time": "11:00:00",
+      "venue": "Anne-Cath. Vestlys plass",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Children's Theatre",
+      "url": "https://www.ticketmaster.no/event/tigerstadsteateret-tigertruppens-fabularium-billetter/474448119",
+      "source": "Ticketmaster",
+      "description": "オスロの子ども向け劇場で上演される、タイガートループによる創造的なファビュラリウム。"
+    },
+    {
+      "title": "Organ recital with Kåre Nordstoga",
+      "date": "2026-09-12",
+      "time": "12:00:00",
+      "venue": "Oslo domkirke",
+      "city": "Oslo",
+      "category": "Music / Classical",
+      "url": "https://www.ticketmaster.no/event/orgelkonsert-med-kare-nordstoga-billetter/258451791",
+      "source": "Ticketmaster",
+      "description": "オルガンの巨匠カーレ・ノルドストーガによるリサイタル。オスロで開催。"
+    },
+    {
+      "title": "ASSITEJ WORKSHOP: HOW TO TOUR OVERSEAS",
+      "date": "2026-09-12",
+      "time": "12:00:00",
+      "venue": "Cafescenen, Centralteatret",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/assitej-workshop-how-to-tour-overseas-billetter/956104074",
+      "source": "Ticketmaster",
+      "description": "海外ツアーの方法を学ぶ国際児童劇場ワークショップ。"
+    },
+    {
+      "title": "KARIUS & BAKTUS",
+      "date": "2026-09-12",
+      "time": "12:00:00",
+      "venue": "Edderkoppen Scene",
+      "city": "Oslo",
+      "category": "Miscellaneous / Hobby/Special Interest Expos",
+      "url": "https://www.ticketmaster.no/event/karius--baktus-billetter/1599392145",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの民話キャラクターを題材にした、ホビーや特別興味向けの展示会。"
+    },
+    {
+      "title": "Bastard",
+      "date": "2026-09-12",
+      "time": "12:00:00",
+      "venue": "Sirkuslandsbyen, Torshovparken",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Circus & Specialty Acts",
+      "url": "https://www.ticketmaster.no/event/bastard-billetter/1492078482",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される、サーカスやスペシャリティパフォーマンスを融合させた芸術イベント。"
+    },
+    {
+      "title": "Susana Pous / MICOMPAÑIA: MONDO",
+      "date": "2026-09-12",
+      "time": "13:00:00",
+      "venue": "OSLO, CENTRALTEATRET",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/susana-pous-micompania-mondo-billetter/1480715194",
+      "source": "Ticketmaster",
+      "description": "スペイン発の前衛的パフォーマンス集団による、身体表現と音響を融合させた革新的舞台作品。"
+    },
+    {
+      "title": "The Planet brunch club",
+      "date": "2026-09-12",
+      "time": "13:00:00",
+      "venue": "Carls - Arena",
+      "city": "Oslo",
+      "category": "Music / Alternative",
+      "url": "https://www.ticketmaster.no/event/the-planet-brunch-club-billetter/733687506",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される、オルタナティブミュージックをテーマにしたブランチクラブイベント。"
+    },
+    {
+      "title": "Sirkus Skranglefant",
+      "date": "2026-09-12",
+      "time": "13:00:00",
+      "venue": "Sirkuslandsbyen, Torshovparken",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Circus & Specialty Acts",
+      "url": "https://www.ticketmaster.no/event/sirkus-skranglefant-billetter/1087065092",
+      "source": "Ticketmaster",
+      "description": "サーカスの伝統的な技と現代的なパフォーマンスを融合させた、ユニークな舞台作品。"
+    },
+    {
+      "title": "FESTNINGEN FORTELLER – Stedsans Akershus festning",
+      "date": "2026-09-12",
+      "time": "14:00:00",
+      "venue": "Karpedammen Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Cultural",
+      "url": "https://www.ticketmaster.no/event/festningen-forteller--stedsans-akershus-festning-billetter/831688991",
+      "source": "Ticketmaster",
+      "description": "アーケシュシュス要塞での地域の物語や歴史を語り部が紹介する文化的舞台表現イベント。"
+    },
+    {
+      "title": "Marie Longva Danielsen: Eg slepp ho aldri",
+      "date": "2026-09-12",
+      "time": "14:30:00",
+      "venue": "Oslo Nye Teaterkjelleren",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/marie-longva-danielsen-eg-slepp-ho-aldri-billetter/1449472111",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの劇作家マリー・ロングヴァ・ダニエルセンによる舞台作品。"
+    },
+    {
+      "title": "Opprørsskolen",
+      "date": "2026-09-12",
+      "time": "14:30:00",
+      "venue": "Centralteateret Søylesalen",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/opprorsskolen-billetter/558355671",
+      "source": "Ticketmaster",
+      "description": "ノルウェーの演劇学校。オスロに拠点を置き、舞台芸術の教育と公演活動を行う。"
+    },
+    {
+      "title": "Anja Bibby: Bibby Bares It All",
+      "date": "2026-09-12",
+      "time": "15:00:00",
+      "venue": "Cafescenen, Centralteatret",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/anja-bibby-bibby-bares-it-all-billetter/648815553",
+      "source": "Ticketmaster",
+      "description": "オスロで開催されるアンジャ・ビビーのコメディ・シアター・パフォーマンス。"
+    },
+    {
+      "title": "Yuri Umemoto / Kanji Okai / Ivar Furre Aam \"crypt_\"",
+      "date": "2026-09-12",
+      "time": "15:00:00",
+      "venue": "Black Box Teater, Store Scene",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Miscellaneous Theatre",
+      "url": "https://www.ticketmaster.no/event/yuri-umemoto-kanji-okai-ivar-furre-aam-crypt_-billetter/1871207783",
+      "source": "Ticketmaster",
+      "description": "オスロで開催される、複数のアーティストによる実験的な舞台作品。"
+    },
+    {
+      "title": "Ole Brumm på eventyr",
+      "date": "2026-09-12",
+      "time": "15:00:00",
+      "venue": "Trikkestallen",
+      "city": "Oslo",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.no/event/ole-brumm-pa-eventyr-billetter/878787309",
+      "source": "Ticketmaster",
+      "description": "クマのオーレ・ブルムの冒険を描いた、オスロで上演される児童向け舞台劇。"
     },
     {
       "title": "GLAMORAMA",
@@ -1694,7 +1661,7 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.se/event/glamorama-biljetter/2002143389",
       "source": "Ticketmaster",
-      "description": "グローテボリで開催されるロックミュージックイベント。アーティストたちが華麗なパフォーマンスを繰り広げます。"
+      "description": "ゴーテボリで開催されるロック音楽フェスティバル。豪華なアーティストが集う大規模なイベント。"
     },
     {
       "title": "Estradkören - Från Soffan till Salongen",
@@ -1705,7 +1672,7 @@
       "category": "Music / Other",
       "url": "https://www.ticketmaster.se/event/estradkoren-fran-soffan-till-salongen-biljetter/1672633468",
       "source": "Ticketmaster",
-      "description": "スウェーデンの室内合唱団による、ソファから音楽ホールへと題した演奏会。"
+      "description": "スウェーデンの合唱団によるコンサート。ソファから音楽ホールへのテーマで演奏。"
     },
     {
       "title": "K-POP SUPERSTARS",
@@ -1716,7 +1683,7 @@
       "category": "Music / Other",
       "url": "https://www.ticketmaster.no/event/k-pop-superstars-billetter/49990036",
       "source": "Ticketmaster",
-      "description": "K-POP人気アーティストによるライブパフォーマンス。ノルウェー・クリスチャンサン開催。"
+      "description": "K-POP人気アーティストによるコンサート。ノルウェーのクリスチャンサンドで開催される音楽イベント。"
     },
     {
       "title": "Dirty Old Town pres: Hedvig Mollestad Trio",
@@ -1727,7 +1694,7 @@
       "category": "Music / Blues",
       "url": "https://www.ticketmaster.no/event/dirty-old-town-pres-hedvig-mollestad-trio-billetter/1490273727",
       "source": "Ticketmaster",
-      "description": "ノルウェーのクリスチャンサンドで開催されるブルース系の音楽イベント。"
+      "description": "ノルウェーの女性ギタリスト、ヘドヴィグ・モレスタッドのトリオによるブルースライブ。"
     },
     {
       "title": "Fra Bedehusland til Gospelklang - Kristiansand",
@@ -1735,10 +1702,10 @@
       "time": "19:00:00",
       "venue": "Kristiansand domkirke",
       "city": "Kristiansand S",
-      "category": "Arts & Theatre / Theatre",
+      "category": "Music / Classical",
       "url": "https://www.ticketmaster.no/event/fra-bedehusland-til-gospelklang-kristiansand-billetter/406134951",
       "source": "Ticketmaster",
-      "description": "礼拝堂からゴスペルへ。クリスチャンサンドでの音楽と信仰の融合を描く舞台作品。"
+      "description": "ノルウェー・クリスチャンサンドで開催されるゴスペル音楽イベント。"
     },
     {
       "title": "SDHL Frölunda - Brynäs",
@@ -1749,7 +1716,7 @@
       "category": "Sports / Hockey",
       "url": "https://fhc.tmtickets.se/EDP/Event/Index/402?position=2",
       "source": "Ticketmaster",
-      "description": "スウェーデンアイスホッケーリーグの試合。フローリュンダとブリュネスの対戦。"
+      "description": "スウェーデン・アイスホッケーリーグの試合。フローリューンダとブリュネースの対戦。"
     },
     {
       "title": "Dirty Old Town pres: SPEKKHOGGER + Fuzzycat Organ Quartet",
@@ -1757,10 +1724,10 @@
       "time": "21:00:00",
       "venue": "Kafé Krank / Laboratoriet",
       "city": "Kristiansand S",
-      "category": "Music / Jazz",
+      "category": "Music / Rock",
       "url": "https://www.ticketmaster.no/event/dirty-old-town-pres-spekkhogger--fuzzycat-organ-quartet-billetter/1422843275",
       "source": "Ticketmaster",
-      "description": "ノルウェーのクリスチャンサンドで開催されるジャズライブ。2つのバンドが出演する音楽イベント。"
+      "description": "ノルウェーのクリスチャンサンドで開催されるロック音楽イベント。SPEKKHOGGERとFuzzycatオルガンカルテットが出演。"
     },
     {
       "title": "GLAMORAMA",
@@ -1771,7 +1738,7 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.se/event/glamorama-biljetter/1806589800",
       "source": "Ticketmaster",
-      "description": "ゴーテボルグで開催されるロック音楽の大型フェスティバル。"
+      "description": "ロックの魅力を存分に味わえるGöteborgの大型音楽フェスティバル。"
     },
     {
       "title": "Skammens diskotek med DJ Reform94 / Caledonien Hall 18. september",
@@ -1782,7 +1749,7 @@
       "category": "Music / Dance/Electronic",
       "url": "https://www.ticketmaster.no/event/skammens-diskotek-med-dj-reform94-caledonien-hall-18-september-billetter/180029132",
       "source": "Ticketmaster",
-      "description": "スウェーデンのエレクトロニック音楽イベント。DJ Reform94がカレドニアンホールで9月18日にディスコを開催します。"
+      "description": "クリスチャンサンドで開催される、DJ Reform94によるエレクトロニックディスコイベント。"
     },
     {
       "title": "Onsala rymdobservatorium – Astronomins dag och natt",
@@ -1793,7 +1760,7 @@
       "category": "Miscellaneous / Fairs & Festivals",
       "url": "https://www.ticketmaster.se/event/onsala-rymdobservatorium--astronomins-dag-och-natt-biljetter/1121596698",
       "source": "Ticketmaster",
-      "description": "スウェーデンの天文台で開催される、天文学の魅力を紹介する昼夜の観察イベント。"
+      "description": "スウェーデンの天文台で開催される、昼夜を通した天文学イベント。"
     },
     {
       "title": "Frölunda HC - Växjö Lakers HC | Premiär",
@@ -1804,7 +1771,7 @@
       "category": "Sports / Hockey",
       "url": "https://fhc.tmtickets.se/EDP/Event/Index/375?position=5",
       "source": "Ticketmaster",
-      "description": "スウェーデン・アイスホッケーの新シーズン開幕戦。フローランダHCがヴェクショーレイカーズHCと対戦。"
+      "description": "スウェーデンアイスホッケーの最高峰リーグにおける、ゴテボリの強豪Frölunda HCとVäxjö Lakers HCの開幕戦。"
     },
     {
       "title": "GLAMORAMA",
@@ -1815,7 +1782,7 @@
       "category": "Music / Rock",
       "url": "https://www.ticketmaster.se/event/glamorama-biljetter/710017797",
       "source": "Ticketmaster",
-      "description": "ゴテボリで開催されるロック音楽の大型フェスティバル。"
+      "description": "ゴーテンボルクで開催されるロックミュージックの魅力を堪能できる音楽イベント。"
     },
     {
       "title": "Emil i Lönneberga",
@@ -1826,7 +1793,7 @@
       "category": "Miscellaneous / Family",
       "url": "https://www.ticketmaster.se/event/emil-i-lonneberga-biljetter/1055826411",
       "source": "Ticketmaster",
-      "description": "スウェーデンの児童文学の主人公エミルが登場するファミリー向けのイベント。"
+      "description": "スウェーデンの田舎町を舞台にした家族向けイベント。いたずら好きな少年エミールの冒険を体験できます。"
     },
     {
       "title": "Frölunda HC - Färjestad BK | Klassikermöte",
@@ -1837,7 +1804,7 @@
       "category": "Sports / Hockey",
       "url": "https://fhc.tmtickets.se/EDP/Event/Index/376?position=6",
       "source": "Ticketmaster",
-      "description": "スウェーデンのゴテボルグで行われるアイスホッケーの古豪対決。"
+      "description": "スウェーデンのゴーテンブルクで行われるアイスホッケーの古豪対決。"
     },
     {
       "title": "SDHL Frölunda - SDE",
@@ -1848,7 +1815,7 @@
       "category": "Sports / Hockey",
       "url": "https://fhc.tmtickets.se/EDP/Event/Index/403?position=3",
       "source": "Ticketmaster",
-      "description": "スウェーデンのヨーテボリで開催されるアイスホッケーの試合。"
+      "description": "スウェーデンのイェーテボリで開催されるアイスホッケーの試合。"
     },
     {
       "title": "GLAMORAMA",
@@ -1859,18 +1826,172 @@
       "category": "Arts & Theatre / Spectacular",
       "url": "https://www.ticketmaster.se/event/glamorama-biljetter/608101714",
       "source": "Ticketmaster",
-      "description": "グレーテボリで開催される、豪華で視覚的に壮大なアート・シアター・スペクタクルイベント。"
+      "description": "グラモラマ：ゴーテボリで開催される豪華で壮大なアート・シアター・スペクタクル。"
     },
     {
-      "title": "Dirty Old Town pres: Bushman's Revenge",
+      "title": "Dirty Old Town pres: Bushman's Revenge+ support: Tirsdag–Torsdag",
       "date": "2026-09-25",
       "time": "21:00:00",
       "venue": "Kafé Krank / Laboratoriet",
       "city": "Kristiansand S",
-      "category": "Music / Blues",
-      "url": "https://www.ticketmaster.no/event/dirty-old-town-pres-bushmans-revenge-billetter/1642940388",
+      "category": "Music / Alternative",
+      "url": "https://www.ticketmaster.no/event/dirty-old-town-pres-bushmans-revenge-support-tirsdagtorsdag-billetter/1642940388",
       "source": "Ticketmaster",
-      "description": "ノルウェーのクリスチャンサンドで開催されるブルースミュージックイベント。"
+      "description": "スカンジナビアンオルタナティブロックバンドBushman's Revenueのライブパフォーマンスイベント。"
+    },
+    {
+      "title": "Så gör jag: Författarfrukost med Roland Paulsen",
+      "date": "2026-09-26",
+      "time": "10:00:00",
+      "venue": "Dirty Records",
+      "city": "Göteborg",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.se/event/sa-gor-jag-forfattarfrukost-medroland-paulsen-biljetter/876367263",
+      "source": "Ticketmaster",
+      "description": "スウェーデンの著作家ローランド・パウルセンとの朝食トークイベント。"
+    },
+    {
+      "title": "Familjeföreställning - Giraffens ABC",
+      "date": "2026-09-26",
+      "time": "13:00:00",
+      "venue": "Snäckan, Kulturhuset Fyren",
+      "city": "Kungsbacka",
+      "category": "Miscellaneous / Family",
+      "url": "https://www.ticketmaster.se/event/familjeforestallning-giraffens-abc-biljetter/1066202804",
+      "source": "Ticketmaster",
+      "description": "キリンのABCを学ぶ家族向けの劇場公演。子どもたちが楽しく言葉と文化を学べます。"
+    },
+    {
+      "title": "En hyllning till Macken - 40 år",
+      "date": "2026-09-26",
+      "time": "18:00:00",
+      "venue": "Kajskjul 8",
+      "city": "Göteborg",
+      "category": "Arts & Theatre / Spectacular",
+      "url": "https://www.ticketmaster.se/event/en-hyllning-till-macken-40-ar-biljetter/1837286299",
+      "source": "Ticketmaster",
+      "description": "マッケン40周年を祝う壮大な舞台作品。ゴテンボルクで開催。"
+    },
+    {
+      "title": "GLAMORAMA",
+      "date": "2026-09-26",
+      "time": "18:30:00",
+      "venue": "Park Lane",
+      "city": "Göteborg",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.se/event/glamorama-biljetter/1737658884",
+      "source": "Ticketmaster",
+      "description": "ゴーテボリで開催されるロック音楽の大型フェスティバル。"
+    },
+    {
+      "title": "Dirty Old Town og Heimevernet pres: Førstehjelp i alle situasjoner",
+      "date": "2026-09-26",
+      "time": "12:00:00",
+      "venue": "Kafé Krank / Laboratoriet",
+      "city": "Kristiansand S",
+      "category": "Miscellaneous / Lecture/Seminar",
+      "url": "https://www.ticketmaster.no/event/dirty-old-town-og-heimevernet-pres-forstehjelp-i-alle-situasjoner-billetter/590047975",
+      "source": "Ticketmaster",
+      "description": "緊急時の応急手当について学ぶセミナー。"
+    },
+    {
+      "title": "Dirty Old Town pres: Valkyrien Allstars",
+      "date": "2026-09-26",
+      "time": "21:00:00",
+      "venue": "Kafé Krank / Laboratoriet",
+      "city": "Kristiansand S",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.no/event/dirty-old-town-pres-valkyrien-allstars-billetter/1889466347",
+      "source": "Ticketmaster",
+      "description": "ノルウェーのクリスチャンサンドで開催されるヴァルキリエン・オールスターズによるロックライブ。"
+    },
+    {
+      "title": "DISNEYS RINGAREN I NOTRE DAME 30 ÅR",
+      "date": "2026-09-27",
+      "time": "14:00:00",
+      "venue": "Frölunda Kulturhus",
+      "city": "Göteborg",
+      "category": "Arts & Theatre / Multimedia",
+      "url": "https://www.ticketmaster.se/event/disneys-ringaren-i-notre-dame-30-ar-biljetter/1221700388",
+      "source": "Ticketmaster",
+      "description": "ノートルダムの鐘の30周年記念、ディズニーミュージカルの特別公演。"
+    },
+    {
+      "title": "Parts + Labour - Labour",
+      "date": "2026-09-27",
+      "time": "15:00:00",
+      "venue": "Kungsbacka Teater",
+      "city": "Kungsbacka",
+      "category": "Arts & Theatre / Dance",
+      "url": "https://www.ticketmaster.se/event/parts--labour-labour-biljetter/854611291",
+      "source": "Ticketmaster",
+      "description": "ダンスパフォーマンスで労働をテーマに、身体表現を通じて社会的な問題を探究する舞台作品。"
+    },
+    {
+      "title": "The Father",
+      "date": "2026-09-30",
+      "time": "19:00:00",
+      "venue": "Kungsbacka Teater",
+      "city": "Kungsbacka",
+      "category": "Arts & Theatre / Theatre",
+      "url": "https://www.ticketmaster.se/event/the-father-biljetter/1789985321",
+      "source": "Ticketmaster",
+      "description": "父と息子の関係を描く心理劇。認知症の進行により揺らぐ現実と家族の絆。"
+    },
+    {
+      "title": "Frölunda HC - Brynäs IF | Halsduksmatchen",
+      "date": "2026-10-01",
+      "time": "18:50:00",
+      "venue": "Scandinavium",
+      "city": "Göteborg",
+      "category": "Sports / Hockey",
+      "url": "https://fhc.tmtickets.se/EDP/Event/Index/387?position=8",
+      "source": "Ticketmaster",
+      "description": "スウェーデンのゴテンブルグで開催されるアイスホッケーの試合。"
+    },
+    {
+      "title": "Dirty Old Town pres: Grant Lee Phillips (US)",
+      "date": "2026-10-01",
+      "time": "21:00:00",
+      "venue": "Kafé Krank / Laboratoriet",
+      "city": "Kristiansand S",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.no/event/dirty-old-town-pres-grant-lee-phillips-us--billetter/1497837099",
+      "source": "Ticketmaster",
+      "description": "アメリカのロックシンガーソングライター、グラント・リー・フィリップスによるライブパフォーマンス。"
+    },
+    {
+      "title": "GLAMORAMA",
+      "date": "2026-10-02",
+      "time": "18:30:00",
+      "venue": "Park Lane",
+      "city": "Göteborg",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.se/event/glamorama-biljetter/1814739236",
+      "source": "Ticketmaster",
+      "description": "ロックの魅力が詰まった音楽フェスティバル。ゴテボリで開催される注目イベント。"
+    },
+    {
+      "title": "Niklas Strömstedt – Tyck OM mig",
+      "date": "2026-10-02",
+      "time": "19:00:00",
+      "venue": "Kungsbacka Teater",
+      "city": "Kungsbacka",
+      "category": "Music / Other",
+      "url": "https://www.ticketmaster.se/event/niklas-stromstedt--tyck-om-mig-biljetter/1772367678",
+      "source": "Ticketmaster",
+      "description": "スウェーデンの歌手ニクラス・ストレムステットによるコンサート。"
+    },
+    {
+      "title": "Viktor Norén & Linus Wahlgren – Våra Liv, Våra Musikaler",
+      "date": "2026-10-02",
+      "time": "19:30:00",
+      "venue": "Scandinavium",
+      "city": "Göteborg",
+      "category": "Music / Rock",
+      "url": "https://www.ticketmaster.se/event/viktor-noren--linus-wahlgren--vara-liv-vara-musikaler-biljetter/154215077",
+      "source": "Ticketmaster",
+      "description": "スウェーデンの音楽人による人生と音楽についてのロックコンサート。"
     }
   ]
 }
